@@ -10,6 +10,11 @@ import {
 } from 'react-router-dom';
 import { HomePage } from './pages/HomePage';
 import './global.css';
+import { KojoradcePage } from './pages/KojoradcePage';
+import { InfoPage } from './pages/InfoPage';
+import { PositionsPage } from './pages/PositionsPage';
+import { TechniquePage } from './pages/TechniquePage';
+import { LPPage } from './pages/LPPage';
 
 export const ErrorPage = () => {
   return (
@@ -47,11 +52,11 @@ const router = createBrowserRouter([
         element: <InfoPage />,
         children: [
           {
-            path: '/polohy',
+            path: 'polohy',
             element: <PositionsPage />,
           },
           {
-            path: '/technika',
+            path: 'technika',
             element: <TechniquePage />,
           },
         ],
