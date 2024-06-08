@@ -6,10 +6,16 @@ export const LPPage = () => {
     <div className="container">
       <header>
         <div />
-        <h1>Laktační poradkyně</h1>
+        <h1>Hledám laktační poradkyni</h1>
       </header>
       <main>
-        <nav>Tady bude odkaz na laktační poradkyně</nav>
+        <p>
+          Na stránkách Laktační ligy najdete seznam laktačních poradkyň podle
+          místa bydliště.
+        </p>
+        <a href="https://www.kojeni.cz/podpora/seznam-laktacnich-poradcu/">
+          Seznam LP
+        </a>
       </main>
       <footer>
         <p>Tady bude footer</p>
