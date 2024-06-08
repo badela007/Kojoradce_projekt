@@ -54,7 +54,7 @@ const router = createBrowserRouter([
         element: <HomePage />,
       },
       {
-        path: '/kojoradce',
+        path: '/kojoradce/:code',
         element: <KojoradcePage />,
       },
       {
