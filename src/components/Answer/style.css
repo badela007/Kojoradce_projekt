@@ -1,0 +1,39 @@
+.answer {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: #5B3F5D;
+    border: none;
+    max-width: 80vw;
+    color: var(--text-color);
+    font-size: 20px;
+    padding: 15px;
+    font-family: 'Poppins'; 
+    justify-content: center;
+    align-items: center;
+}
+
+
+.answer__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px; 
+    flex-shrink: 0;
+
+}
+  
+
+.answer__content-icon {
+width: 20%;
+background-image: url('breastfeeding.png');
+}
+
+
+
+
+.answer__content-text {
+width: 80%;
+text-align: left;
+}
