@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import { TechniqueDetail } from '../../components/TechniqueDetail';
 
 export const TechniquePage = () => {
   const details = [
@@ -33,7 +34,7 @@ export const TechniquePage = () => {
         />
       ))}
       <div className="download-link">
-        <a href="/Spravna-technika-kojeni.pdf" download>
+        <a href="/download/Spravna-technika-kojeni.pdf" download>
           Stáhnout PDF
         </a>
       </div>
