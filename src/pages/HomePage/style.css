@@ -1,13 +1,51 @@
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
+:root {
+  --main-bg-color: rgba(24, 26, 32, 1);
+  --question-bg-color: rgba(52, 54, 69, 1);
+  --text-color: rgba(245, 245, 245, 1);
+  --font-family: "Poppins", sans-serif;
+  --font-weight: 400;
+  --font-style: normal;
+  --btn-primary-bg-color: rgba(91, 63, 93, 1);
+  --btn-secondary-bg-color: rgba(68, 42, 101, 1);
+  --btn-tertiary-bg-color: rgba(59, 10, 63, 1);
+  --btn-nav-bg-color: rgba(52, 54, 69, 1);
+  --menu-background: rgba(104, 80, 106, 1);
+
 }
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+
+/* ZÁKLADNÍ STYLY */
+
+*,
+body,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
+
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--text-color);
+  /* homepage animation line-art zatim nefunguje */
+  /* background-size: cover; */
+  /* height: 100vh;  */
+  /* margin: 0; */
+  /* background-image: url('img/mother-line.svg'); */
+  /* background-repeat: no-repeat; */
+}
+
+/* .mother-line {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: draw 10s linear forwards;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+} */
