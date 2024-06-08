@@ -1,12 +1,16 @@
 import React from 'react';
 import './style.css';
-import { Outlet } from 'react-router-dom';
+
 
 export const InfoPage = () => {
   return (
     <div className="container">
       <h1>tady bude stranka Informace o kojeni</h1>
-      {/* <Outlet /> */}
+     <a href='http://localhost:5173/info-o-kojeni/technika'>Technika</a>
+     <div>
+     <a href='http://localhost:5173/info-o-kojeni/polohy'>Polohy</a>
+     </div>
+
     </div>
   );
 };
