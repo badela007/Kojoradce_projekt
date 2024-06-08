@@ -1,5 +1,5 @@
-import * as React from "react";
-import { createRoot } from "react-dom/client";
+import * as React from 'react';
+import { createRoot } from 'react-dom/client';
 import {
   createBrowserRouter,
   NavLink,
@@ -7,11 +7,9 @@ import {
   Route,
   Link,
   Outlet,
-} from "react-router-dom";
-import { HomePage } from "./pages/HomePage";
-import "./global.css";
-import { ErrorPage } from "./pages/ErrorPage";
-
+} from 'react-router-dom';
+import { HomePage } from './pages/HomePage';
+import './global.css';
 
 export const ErrorPage = () => {
   return (
@@ -22,54 +20,50 @@ export const ErrorPage = () => {
   );
 };
 
-
-
 const App = () => {
   return (
     <>
-      <nav className="navigation">
-      </nav>
+      <nav className="navigation"></nav>
     </>
   );
 };
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
-  {
-    path: '/',
-    element: <HomePage />,
-  },
-  {
-    path: '/kojoradce',
-    element: <KojoradcePage />,
-  },
-  {
-    path: '/info-o-kojeni',
-    element: <InfoPage />,
-    children: [
       {
-        path: '/polohy',
-        element: <PositionsPage />,
+        path: '/',
+        element: <HomePage />,
       },
       {
-        path: "/technika",
-        element: <TechniquePage />,
+        path: '/kojoradce',
+        element: <KojoradcePage />,
+      },
+      {
+        path: '/info-o-kojeni',
+        element: <InfoPage />,
+        children: [
+          {
+            path: '/polohy',
+            element: <PositionsPage />,
+          },
+          {
+            path: '/technika',
+            element: <TechniquePage />,
+          },
+        ],
+      },
+      {
+        path: '/laktacni-poradkyne',
+        element: <LPPage />,
       },
     ],
   },
-  {
-    path: '/laktacni-poradkyne',
-    element: <LPPage />,
-  },
-    ]
-  }
-
 ]);
 
-createRoot(document.querySelector("#app")).render(
-  <RouterProvider router={router} />
+createRoot(document.querySelector('#app')).render(
+  <RouterProvider router={router} />,
 );
