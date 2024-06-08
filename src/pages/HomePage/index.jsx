@@ -32,6 +32,16 @@ const router = createBrowserRouter([
   {
     path: '/info-o-kojeni',
     element: <InfoPage />,
+    children: [
+      {
+        path: '/polohy',
+        element: <PositionsPage />,
+      },
+      {
+        path: "/technika",
+        element: <TechniquePage />,
+      },
+    ],
   },
   {
     path: '/laktacni-poradkyne',
