@@ -40,8 +40,7 @@ export const KojoradcePage = () => {
           console.log('kod', code);
           return <AnswerButton code={code} />;
         })}
-
-        <h3>{question.option_codes}</h3>
+        {question.option_codes.length === 0 ? <div>Ahoj</div> : null}
       </main>
       <footer>
         <p>Tady bude footer</p>
