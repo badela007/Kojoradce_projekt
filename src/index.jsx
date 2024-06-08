@@ -28,9 +28,9 @@ export const ErrorPage = () => {
 const App = () => {
   return (
     <div>
-      <h1>Dětský koutek</h1>
+
       <nav>
-        <Link to="/homepage">Domů</Link>
+        <Link to="/">Hlavni</Link>
         <span> | </span>
         <Link to="/kojoradce">Kojorádce</Link>
         <span> | </span>
@@ -60,17 +60,16 @@ const router = createBrowserRouter([
       {
         path: '/info-o-kojeni',
         element: <InfoPage />,
-        children: [
+      },
           {
-            path: 'polohy',
+            path: '/info-o-kojeni/polohy',
             element: <PositionsPage />,
           },
           {
-            path: 'technika',
+            path: '/info-o-kojeni/technika',
             element: <TechniquePage />,
           },
-        ],
-      },
+        
       {
         path: '/laktacni-poradkyne',
         element: <LPPage />,
