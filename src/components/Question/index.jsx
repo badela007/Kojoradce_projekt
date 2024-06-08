@@ -1,13 +1,13 @@
 import './style.css';
 
 
-export const Question = () => {
+export const Question = ({text}) => {
     return ( 
     <div className="question">
         <div className="question__logo">
         </div>
             <p className="question__content">
-                Zdravím, jsem KOJORÁDCE. Váš průvodce kojením. S čím mohu pomoci?
+                {text}
             </p>
     </div>
 );
