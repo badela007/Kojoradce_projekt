@@ -7,18 +7,19 @@ import { useParams } from 'react-router-dom';
 
 export const KojoradcePage = () => {
   const { code } = useParams();
-  console.log(code);
+  // console.log(code);
 
   const question = data.find((qstn) => qstn.code === Number(code));
-  console.log(question);
+  // console.log(question);
 
   const answers = question.option_codes.map((code) => {
     const answer = data.find((answr) => answr.code === code);
-  });
-  console.log(answers);
+    // console.log(answer.text);
+    });
 
-  /*const answer = data.find((answr) => answr.code === question.option_codes[1]);
-  console.log(answer.text);*/
+  const answer = data.find((answr) => answr.code === question.option_codes.map((code) => {code}));
+  // console.log(answer);
+
 
   return (
     <div className="container">
@@ -28,6 +29,9 @@ export const KojoradcePage = () => {
       </header>
       <main>
         <Question text={question.text} />
+
+        {question.option_codes.map((code) => <AnswerButton code={code} />)}
+
         <h3>{question.option_codes}</h3>
       </main>
       <footer>

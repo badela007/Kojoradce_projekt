@@ -115,6 +115,7 @@
         "code": 2013,
         "title": "3. Nedaří se mi",
         "text": "3. Nedaří se mi miminko správně přiložit.",
+        "final": true,
         "option_codes": [
             201121
         ]
