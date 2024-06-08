@@ -7,10 +7,10 @@ import { useParams } from 'react-router-dom';
 
 export const KojoradcePage = () => {
   const { code } = useParams();
-  // console.log(code);
+  console.log(code);
 
   const question = data.find((qstn) => qstn.code === Number(code));
-  // console.log(question);
+  console.log("test",question);
 
   const answers = question.option_codes.map((code) => {
     const answer = data.find((answr) => answr.code === code);
@@ -30,7 +30,8 @@ export const KojoradcePage = () => {
       <main>
         <Question text={question.text} />
 
-        {question.option_codes.map((code) => <AnswerButton code={code} />)}
+        {question.option_codes.map((code) => {console.log('kod', code) 
+        return(<AnswerButton code={code} />)})}
 
         <h3>{question.option_codes}</h3>
       </main>
