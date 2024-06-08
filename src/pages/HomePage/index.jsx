@@ -12,10 +12,10 @@ export const HomePage = () => {
       </header>
       <main>
 
-        <Question />
-        <Answer />
-        <Answer />
-        <Answer />
+        <Question text="Zdravím, jsem KOJORÁDCE. Váš průvodce kojením. S čím mohu pomoci?" />
+        <Answer link="/kojoradce" text="Mám potíže. Potřebuji poradit" />
+        <Answer link="/info-o-kojeni" text="Hledám informace ke kojení" />
+        <Answer link="/laktacni-poradkyne" text="Hledám laktační poradkyní"/>
 
 
 
