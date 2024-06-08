@@ -43,7 +43,7 @@ export const KojoradcePage = () => {
         {question.option_codes.length === 0 ? <div>Ahoj</div> : null}
       </main>
       <footer>
-        <p>Tady bude footer</p>
+        <p></p>
       </footer>
     </div>
   );
