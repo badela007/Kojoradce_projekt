@@ -5,19 +5,37 @@ export const HomePage = () => {
     <div className="container">
       <header>
         <div className="logo" />
-        <h1>React webová aplikace</h1>
+        <h1>Kojorádce</h1>
       </header>
       <main>
-        <p>
-          Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí
-          {" "}
-          <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>
-          .
-        </p>
+        <nav>Tady bude nav</nav>
       </main>
       <footer>
-        <p>Czechitas, Digitální akademie: Web</p>
+        <p>Tady bude footer</p>
       </footer>
     </div>
   );
 };
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <HomePage />,
+  },
+  {
+    path: '/kojoradce',
+    element: <KojoradcePage />,
+  },
+  {
+    path: '/info-o-kojeni',
+    element: <InfoPage />,
+  },
+  {
+    path: '/laktacni-poradkyne',
+    element: <LPPage />,
+  },
+]);
+
+createRoot(document.querySelector('#app')).render(
+  <RouterProvider router={router} />,
+);
