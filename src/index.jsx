@@ -27,9 +27,19 @@ export const ErrorPage = () => {
 
 const App = () => {
   return (
-    <>
-      <nav className="navigation"></nav>
-    </>
+    <div>
+      <h1>Dětský koutek</h1>
+      <nav>
+        <Link to="/homepage">Domů</Link>
+        <span> | </span>
+        <Link to="/kojoradce">Kojorádce</Link>
+        <span> | </span>
+        <Link to="/info-o-kojeni">Info o kojení</Link>
+        <span> | </span>
+        <Link to="/laktacni-poradkyne">Laktační poradkyně</Link>
+      </nav>
+      <Outlet />
+    </div>
   );
 };
 
