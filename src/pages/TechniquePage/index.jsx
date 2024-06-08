@@ -8,7 +8,7 @@ export const TechniquePage = () => {
       title: '1. Správné držení prsu',
       description:
         'Držte prs tak, aby se vaše prsty nedotýkaly dvorce a aby byl prs podpírán zespodu všemi prsty kromě palce. Palec je položen vysoko nad dvorcem. Bradavku nabízejte připravenou, tj. vytvarovanou do špičky, tak jako když chcete odstříknout mléko. Bradavka ani dvorec nesmí být oteklý. V případě otoku ho rozmasírujte směrem nahoru krouživými pohyby. Abyste předešla otokům, noste podprsenku, je-li bradavka nejníže uloženou částí prsu. Prs nabídněte dítěti tak, aby uchopilo nejen bradavku, ale co možná největší část dvorce.',
-      images: ['./img/spravne-drz-prs.jpeg', './img/nespravne-drz-prs.jpeg'],
+      images: ['/img/spravne-drz-prs.jpeg', '/img/nespravne-drz-prs.jpeg'],
     },
     {
       title: '2. Správná vzájemná poloha matky a dítěte',

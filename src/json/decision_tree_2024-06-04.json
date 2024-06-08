@@ -1,0 +1,378 @@
+[
+    {
+        "id": 0,
+        "code": 1,
+        "title": "Mám potíže při kojení.",
+        "text": "Mám potíže při kojení. Chci vstoupit do dotazníku, který mi pomůže diagnostikovat problém.",
+        "option_codes": [
+            2
+        ]
+    },
+    {
+        "id": 1,
+        "code": 2,
+        "title": "Jakého typu jsou vaše",
+        "text": "Jakého typu jsou vaše potíže s kojením?",
+        "option_codes": [
+            201,
+            202,
+            203,
+            204,
+            205,
+            206
+        ]
+    },
+    {
+        "id": 2,
+        "code": 201,
+        "title": "1. Mé dítě se",
+        "text": "1. Mé dítě se špatně přisává.",
+        "option_codes": [
+            2011,
+            2012,
+            2013
+        ]
+    },
+    {
+        "id": 3,
+        "code": 202,
+        "title": "2. Mám pocit, že",
+        "text": "2. Mám pocit, že mám málo mléka.",
+        "option_codes": [
+            2021
+        ]
+    },
+    {
+        "id": 4,
+        "code": 203,
+        "title": "3. Bolí mě bradavky.",
+        "text": "3. Bolí mě bradavky.",
+        "option_codes": [
+            2030,
+            2031,
+            2032,
+            2033,
+            2034
+        ]
+    },
+    {
+        "id": 5,
+        "code": 204,
+        "title": "4. Bolí mě prs.",
+        "text": "4. Bolí mě prs.",
+        "option_codes": [
+            2041
+        ]
+    },
+    {
+        "id": 6,
+        "code": 205,
+        "title": "5. Miminko málo přibírá",
+        "text": "5. Miminko málo přibírá na váze.",
+        "option_codes": [
+            2021
+        ]
+    },
+    {
+        "id": 7,
+        "code": 206,
+        "title": "6. Jiné.",
+        "text": "6. Jiné.",
+        "option_codes": [
+            2061
+        ]
+    },
+    {
+        "id": 8,
+        "code": 2010,
+        "title": "Co nejvíce odpovídá vašim",
+        "text": "Co nejvíce odpovídá vašim potížím?",
+        "option_codes": [
+            2011,
+            2012
+        ]
+    },
+    {
+        "id": 9,
+        "code": 2011,
+        "title": "1. Přisávání vašeho dítěte",
+        "text": "1. Přisávání vašeho dítěte je bolestivé.",
+        "option_codes": [
+            201111
+        ]
+    },
+    {
+        "id": 10,
+        "code": 2012,
+        "title": "2. Miminko se odtahuje",
+        "text": "2. Miminko se odtahuje a při přiložení pláče.",
+        "option_codes": [
+            20121
+        ]
+    },
+    {
+        "id": 11,
+        "code": 2013,
+        "title": "3. Nedaří se mi",
+        "text": "3. Nedaří se mi miminko správně přiložit.",
+        "option_codes": [
+            201121
+        ]
+    },
+    {
+        "id": 12,
+        "code": 2021,
+        "title": "Vaše miminko může být",
+        "text": "Vaše miminko může být nedostatečně kojené, pokud nedosáhlo do 3 týdnů porodní hmotnosti, pokud má málo počůraných plenek (norma je 6-8 / den čůrání, 2-5 stolic do 6. týdne), pokud je stolice sporadická, páchnoucí, okrová s příměsí hlenu. Nedostatečně kojené dítě zaostává v percentilových růstových grafech (délkový a hmotnostně - výškový). Graf naleznete v dětském průkazu, pokud mu nerozumíte, požádejte o vysvětlení dětského lékaře.\nJak můžete tyto potíže vyřešit? Zkontrolujte si techniku kojení. Doporučení pro navýšení laktace jsou tato: Kojte často 10-12x za den, z toho 1-2x v noci. Přikládejte k oběma prsům při každém kojení. Prsy můžete během jednoho kojení vystřídat i 4x. Mezi kojením odstříkávejte 8-10x po dobu 10-15 minut, aby se vám nastartovala a zvýšila laktace. Nepoužívejte lahev a dudlík, vede to akorát ke zmatení miminka a k nesprávnému sání z prsu. V případě dokrmování volte raději alternativní způsob (dokrmování po prstu stříkačkou, po prsu hadičkou, z hrníčku, nebo lžičkou). Dále je vhodné, abyste hodně pila neslazené nápoje 2-3 litry denně. Na zvýšení laktace můžete zařadit kojící čaje, vitakávu nebo homeopatikum. Homeopatikum Ricinus communis 5ch nebo 9ch můžete první týden pro podporu kojení používat až 6x5 granulí denně, druhý týden 3x5 granulí týdně, třetí týden pomalu snižovat užívání až do úplného obnovení laktace. Pokud dojde během období kojení k dočasnému snížení tvorby mléka, pak postačí zase 3x5 granulí denně k podpoře jeho tvorby. Při dostatečné laktaci opět vysaďte. Pokud si nejste jistá, zda děláte vše správně, pozvěte si domů laktační poradkyni.  ",
+        "option_codes": [
+            111,
+            222
+        ]
+    },
+    {
+        "id": 13,
+        "code": 201111,
+        "title": "Jakého typu jsou vaše",
+        "text": "Jakého typu jsou vaše potíže s bolestivostí při kojení?",
+        "option_codes": [
+            2011112,
+            2011113
+        ]
+    },
+    {
+        "id": 14,
+        "code": 201121,
+        "title": "Pokud se vám nedaří",
+        "text": "Pokud se vám nedaří správně přiložit a přisávání není pro vás bolestivé, můžete mít nesprávnou techniku kojení. Zkontrolujte si techniku kojení podle následujícího odkazu. Pokud by se vám to nedařilo, najděte si laktační poradkyni.  ",
+        "option_codes": [
+            111,
+            222
+        ]
+    },
+    {
+        "id": 15,
+        "code": 2011112,
+        "title": "1. Bolí mě bradavka/y.",
+        "text": "1. Bolí mě bradavka/y.",
+        "option_codes": [
+            2031
+        ]
+    },
+    {
+        "id": 16,
+        "code": 2011113,
+        "title": "2. Bolí mě celý",
+        "text": " 2. Bolí mě celý prs.",
+        "option_codes": [
+            2041
+        ]
+    },
+    {
+        "id": 17,
+        "code": 20121,
+        "title": "Zde může nastat několik",
+        "text": "Zde může nastat několik možností co miminko může trápit. Nejprve vylučte co by mohlo miminku vadit ve vašem okolí - hluk, velké teplo, nebo zima, zda je miminko přebalené. Může nastat potíž se slabým vypuzovacím reflexem vašeho prsu. To znamená, že mléko teče pomaleji, než by si miminko přálo a proto se často pouští. Příčinou může být stres maminky, používání dudlíků, láhve, nebo omezování kojení. Platí zásada, že miminko kojíme na požádání a tak dlouho dokud se samo nepustí. Slabému vypuzovacímu reflexu můžeme pomoci teplým vlhkým obkladem na prsa před kojením a dále masážemi prsů krouživými pohyby a tlakem.\nDalší potíž, která může nastat, když se dítě odtahuje, je naopak silný vypuzovací reflex. Poznáte ho tak, že dítě se zalyká a odtahuje od prsu a po kojení ublinkává. Pomoci může vzpřímená poloha při kojení, zabránit vytékání mléka gravitací. Pokud mléko moc vytéká, můžete trochu odstříknout a znovu přiložit. Vhodné je přerušované kojení, pokračujete po 1-2 minutách, kdy se proud mléka zpomalí.",
+        "option_codes": []
+    },
+    {
+        "id": 18,
+        "code": 2031,
+        "title": "Jak se projevují vaše",
+        "text": "Jak se projevují vaše bolesti bradavek?",
+        "option_codes": [
+            20311,
+            20312,
+            20313,
+            20314,
+            20315
+        ]
+    },
+    {
+        "id": 19,
+        "code": 20311,
+        "title": "1. Bradavka je začervenalá",
+        "text": "1. Bradavka je začervenalá a bolestivá.",
+        "option_codes": [
+            203111,
+            111
+        ]
+    },
+    {
+        "id": 20,
+        "code": 20312,
+        "title": "2. Mám ragádu/y (prasklou",
+        "text": "2. Mám ragádu/y (prasklou kůži na bradavce).",
+        "option_codes": [
+            203121
+        ]
+    },
+    {
+        "id": 21,
+        "code": 20313,
+        "title": "3. Bradavka svědí a",
+        "text": "3. Bradavka svědí a pálí a je začervenalá.",
+        "option_codes": [
+            203131
+        ]
+    },
+    {
+        "id": 22,
+        "code": 20314,
+        "title": "4. Při přisátí a",
+        "text": "4. Při přisátí a během kojení mě bradavka bolí.",
+        "option_codes": [
+            203141
+        ]
+    },
+    {
+        "id": 23,
+        "code": 20315,
+        "title": "5. Mám při a",
+        "text": "5. Mám při a po kojení přecitlivělou, studenou a bílou bradavku. Bradavka bolí někdy i dlouhou dobu po kojení.",
+        "option_codes": [
+            203151
+        ]
+    },
+    {
+        "id": 24,
+        "code": 203111,
+        "title": "Zde jsou rady a",
+        "text": "Zde jsou rady a tipy pro citlivé a bolestivé bradavky: \nPečujte o své bradavky po každém kojení. Jemně omyjte a osušte, nebo nechte potřené mateřským mlékem a sušte na vzduchu. Sušit se mohou na vzduchu (doma nahoře bez), nebo pomocí chráničů ve tvaru mušle. K rychlému hojení můžete použít Silverette Léčivé kloboučky, které jsou ze stříbra a nosí se mezi kojeními v podprsence. Stříbro zabraňuje rozmnožení virů a bakterií, které zabraňují hojení kůže. \nMezi další metody patří:  potírání bradavky kolostrem / mateřským mlékem, mazání prsními mastmi, potírání genciánovou violetí (spíše při potížích s kvasinkou), nošení hydrogelových polštářků (tzv. mokré hojení), používání chráničů bradavek typu mušle (ne silikonové kloboučky). \nUrčitě je na místě zkontrolovat správnou techniku kojení.  Pro další informace rozklikněte správnou techniku kojení.                              ",
+        "option_codes": [
+            111,
+            222
+        ]
+    },
+    {
+        "id": 25,
+        "code": 203121,
+        "title": "Zde jsou rady a",
+        "text": "Zde jsou rady a tipy pro léčbu popraskaných bradavek (s ragádami).\nBolestivé bradavky jsou většinou výsledkem nesprávné techniky kojení, chybného přiložení, nebo nesprávného sání. Poškození bradavek lze předcházet správnou technikou kojení.  Dále je nutné upravit polohu dítěte při kojení, aby ragáda byla v koutku úst dítěte. \n- Je dobré měnit polohy a střídat prsa. \n- Nabídněte jako první méně bolestivý prs.  \n- Stimulujte uvolnění mléka před kojením přiložením teplého obkadu.  \n- Nenabízejte nalitou bradavku ani dvorec, mírně odstříkněte a vytvarujte bradavku prsty do špičky. \n- Neomezujte frekvenci a délku kojení. \n- Na konci kojení zasuňte malíček za vnitřní koutek úst dítěte a to se samo pustí.\n- Nechte po každém kojení zaschnout pár kapek mateřského mléka.  \n- Bradavky ponechte co nejčastěji volně na vzduchu.     \nV případě praskliny na bradavce (ragády) bez krve je vhodné nošení Silverette Léčivých kloboučků, které urychlí hojení. Další alternativou léčby jsou hydrogelové polštářky a kojící mastičky. Pomůže také ulevovat prsu a střídat kojení s odsáváním elektrickou odsávačkou. Důležitá je v prvé řadě kontrola správného přiložení. Pokud se vám to nedaří podle návodu, oslovte laktační poradkyni.   V případě ragády do krve, aby se ragáda co nejrychleji zahojila, je možné kombinovat odsávání s kojením. Buď kojit ze zdravého prsu a odsávat z prsu s prasklou bradavkou. Takto pár dní, do zhojení bradavky. Nebo je možná kombinace, jednou nakojit z bolavého prsu, podruhé odsát (elektrickou odsávačkou) a tak pořád dokola. Miminko lze nakrmit alternativní metodou - po lžičce, z kádinky, po prstu stříkačkou, nebo pomocí speciální lahvičky pro kojení novorozeňat od Medely, aby nedošlo ke zmatení miminka savičkou a to se bylo schopno rychle vrátit zpět ke kojení z prsu. Pro rychejší zahojení bradavek je vhodné nosit mezi kojeními Silverette Léčivé kloboučky, které jsou ze stříbra a zabrání pomnožení bakterií a virů na kůži, které zabraňují hojení kůže. Při použití Silverette kloboučků na léčení ragád (prasklin) do krve počítejte s léčbou cca 14 dní. Ragády se zacelují postupně od krajů.   Rozklikněte informace ke správné technice kojení.                                                                                                    ",
+        "option_codes": [
+            111,
+            222
+        ]
+    },
+    {
+        "id": 26,
+        "code": 203131,
+        "title": "Může se jednat o",
+        "text": "Může se jednat o infekci plísněmi nebo houbami. Projevuje se neustupujícím pálením, svěděním dvorce nebo bradavky. Kůže červená a může se olupovat a objevit se virážka podobná ekzému.  Jako pomoc jsou vhodné protiplísňové masti (např. Canesten), pečlivé mytí rukou a častá výměna vložek v podprsence. Pokud Canesten a uvedená doporučení nepomáhají. Navštivte kožního lékaře nebo gynekologa. \nMůže se jednat o kvasinkovou infekci (rozmnoženou houbu Candida albicans). \nPro rychlou léčbu je velmi vhodné vysadit cukr ze stravy (pozor i na kravské mléko a výrobky z něj, také obsahují hodně cukru), protože kvasinka se živí hlavně cukrem. Je dobré zařadit do stravy matky hodně zeleniny a pít dostatečně neslazené nápoje. Candida se projevuje i u miminka virážkou, nebo bílým povlakem na jazyku (soor v ústech miminka). Je potřeba léčit i miminko i sebe. \nNa kvasinku se běžně doporučuje potírání prsu i úst miminka genciánovou violetí, nebo vytírat ústa miminku Neocide gelem. Maminka se může také léčit pomocí stříbrných kloboučků Silverette, které pomohou dezinfikovat kůži bradavky. Stříbrné kloboučky však nezabírají na již rozjetou kvasinkovou infekci. Proto je nutné vyhledat lékaře, který předepíše antimykotickou mast, nebo antibiotika a maminka pak po dokončení léčby od lékaře může použít stříbrné kloboučky na dohojení. ",
+        "option_codes": [
+            111,
+            222,
+            333
+        ]
+    },
+    {
+        "id": 27,
+        "code": 203141,
+        "title": "Ragády a bolest při",
+        "text": "Ragády a bolest při kojení jsou často způsobené nesprávným přiložením miminka. Mezi první doporučenou radu patří kontrola přiložení miminka a správné techniky kojení laktační poradkyní. Rozklikněte informace ke správné technice kojení.",
+        "option_codes": [
+            111,
+            222
+        ]
+    },
+    {
+        "id": 28,
+        "code": 203151,
+        "title": "Může se jednat o",
+        "text": "Může se jednat o syndrom bělavé bradavky. Tento syndrom se vyskytuje vzácně, před diagnózou je potřeba vyloučit špatnou techniku kojení, anomálie v ústech dítěte (např. zkrácená uzdička) a také kvasinkovou a virovou infekci na prsu.\nPříčinou je přechodné porušení krevního oběhu k bradavce způsobené stažením cév. Je to velmi bolestivé. Po ukončení kojení je bradavka často barevně změněná, jakoby vymáčená. Velmi často jsou v anamnéze maminek se syndromem bělavé bradavky migrény, oběhové problémy či přecitlivělost na chlad a podobně. \nKdyž se bolest objeví při kojení, zkuste přerušit sání dítěte vložením vašeho prstu do úst dítěte. Tím se obnoví prokrvení bradavky a bolest se zmírní. Po kojení při bolesti zkuste vlhké, teplé nebo studené obklady. Každé mamince dělá dobře něco jiného.   Pomáhá hlídat správné přisátí a polohu k matce, oblíbený teplý nápoj před kojením, někdy pomůže přerušování kojení. Lze užívat calcium a magnezium, také paralen či brufen proti bolesti.\nNěkterým maminkám pomáhá kojit přes kojící silikonové kloboučky. Dítě je možné krmit i odstříkaným mateřským mlékem alternativním způsobem (stříkačkou po prstu, cévkou po prsu, z hrníčku, lžičkou). Také je možné nosit mezi kojeními, jako ochranu před otěrem, Silverette stříbrné kloboučky, které nejprve maminka zahřeje v ruce na tělesnou teplotu. ",
+        "option_codes": [
+            111,
+            222
+        ]
+    },
+    {
+        "id": 29,
+        "code": 2041,
+        "title": "Jakým způsobem vás bolí",
+        "text": "Jakým způsobem vás bolí prs?",
+        "option_codes": [
+            20411,
+            20412,
+            20413
+        ]
+    },
+    {
+        "id": 30,
+        "code": 20411,
+        "title": "1. Nahmatala jsem si",
+        "text": "1. Nahmatala jsem si bolestivou zatvrdlinu.",
+        "option_codes": [
+            204111
+        ]
+    },
+    {
+        "id": 31,
+        "code": 20412,
+        "title": "2. Mám horečku a",
+        "text": "2. Mám horečku a červený oteklý prs.",
+        "option_codes": [
+            204121
+        ]
+    },
+    {
+        "id": 32,
+        "code": 20413,
+        "title": "3. Bolestivě se mi",
+        "text": "3. Bolestivě se mi nalila prsa.",
+        "option_codes": [
+            204131
+        ]
+    },
+    {
+        "id": 33,
+        "code": 204111,
+        "title": "Bolestivá zatvrdlina je pravděpodobně",
+        "text": "Bolestivá zatvrdlina je pravděpodobně způsobena ucpaným (zablokovaným) mlékovodem.  Jak poznáte, že máte zablokované mlékovody? V prse se vytvoří bulka, hrudka, na omak velmi bolestivá a její okolí je mírně červené. Zablokovanému, nebo ucpanému mlékovodu pomůže velmi dobře přisátí miminka a kojení kůže na kůži (přikládáte miminko nahaté jen v plence a sama jste také do půli těla). Teplá kůže miminka přilehne na prso a teplo pak pomáhá uvolňovat zablokovaný mlékovod.  Dítě může být neklidné, nepokojné, protože ze zablokovaného mlékovodu může téct mléko pomaleji než z druhého prsa. Je proto důležité: stále kojit na straně postižené zablokovaným mlékovodem a snažit se o co nejlepší přisátí - brada dítěte směřuje k postiženému místu. \nPostižené místo můžete nahřívat například  teplým polštářkem, lahví s teplou vodou a masírovat krouživými pohyby. Před kojením dáváme vždy teplé obklady, po kojení, pokud je místo horké, můžeme dát studený obklad. Proti bolesti můžete použít léky s paracetamolem nebo ibubrufenem.  Zablokované mlékovody se tedy dají řešit i bez léčby lékařem, a to do 24 – 48 hodin. Pokud ale ke zlepšení stavu nedojde ani po 48 hodinách, je na místě kontaktovat lékařskou pomoc.    ",
+        "option_codes": [
+            111
+        ]
+    },
+    {
+        "id": 34,
+        "code": 204121,
+        "title": "Můžete trpět zánětem prsní",
+        "text": "Můžete trpět zánětem prsní žlázy tzv. mastitidou.  Jedná se o horký a bolestivý otok prsu s teplotou a celkovou slabostí. Může být tuhá boule v prsu. U zánětu může být také zatvrdlé místo, ale začervenání je už dost intenzivní. Jedná se o bakteriální infekci prsu, která se do něj většinou dostane přes trhlinku na bradavce a nebo jiné poškození bradavky. Některé ženy však mají mastitidu a poranění mít nemusejí. Pokud máte neustupující horečku, bude nejlepší návštěva lékaře, který vám předepíše antibiotika při kterých můžete nadále kojit. Při teplotách do 38 stupňů Celsia můžete užívat ibubrufen. \nPro vyléčení je zásadní časté kojení i z postiženého prsu. Před kojením nahřívejte prs teplým obkladem, před přiložením uvolněte dvorec odstříkáním. Začněte kojit nejprve z postiženého prsu prsu, bradičku dítěte nasměrujte k postiženému místu. Po kojení prs znovu odstříkejte a můžete dát studený zábal. Určitě si zkontrolujte techniku kojení.  \nDále pomáhá masáž prsou v teplé sprše.  Na zánět prsu můžete použí také zábal z tvarohu (v alobalu). Studený tvaroh rozetřete přímo na postižené místo po kojení a zabalte např. látkovou plenou. Zábal sundejte, až když je tvaroh ohřátý, cca za 30 minut. ",
+        "option_codes": [
+            111
+        ]
+    },
+    {
+        "id": 35,
+        "code": 204131,
+        "title": "Bolestivé nalití prsů se",
+        "text": "Bolestivé nalití prsů se může objevit mezi 2. až 4. dnem po porodu, nebo později. Oba prsy jsou oteklé, horké a bolestivé. Nejlépe pomáhají studené obklady mezi kojením. Před kojením pak pomáhají teplé vlhké obklady a masáže prsů. Vhodné je odstříkání před kojením na změkčení dvorce. Nikdy nepřikládejte miminko k nalitému dvorci a bradavce, hrozí poranění bradavky.  Pomáhá často kojit a měnit polohy po kojení. Bolestivost po pár dnech odezní.",
+        "option_codes": []
+    },
+    {
+        "id": 36,
+        "code": 2061,
+        "title": "V případě potíží, které",
+        "text": "V případě potíží, které nenaleznete v našem Kojorádci, kontaktujte svoji laktační poradkyni, nebo využijte odkazy níže. Laktační poradkyně v místě bydliště: https://www.kojeni.cz/maminkam/poradci/",
+        "option_codes": []
+    },
+    {
+        "id": 37,
+        "code": 111,
+        "title": "Správná technika kojení 1.",
+        "text": "Správná technika kojení\n1. Správné držení prsu -  Držte prs tak, aby se vaše prsty nedotýkaly dvorce a aby byl prs podpírán zespodu všemi prsty kromě palce. Palec je položen vysoko nad dvorcem. Bradavku nabízejte připravenou, tj. vytvarovanou do špičky, tak jako když chcete odstříknout mléko. Bradavka ani dvorec nesmí být oteklý. V případě otoku ho rozmasírujte směrem nahoru krouživými pohyby. Abyste předešla otokům, noste podprsenku, je-li bradavka nejníže uloženou částí prsu. Prs nabídněte dítěti tak, aby uchopilo nejen bradavku, ale co možná největší část dvorce.\n \n 2. Správná vzájemná poloha matky a dítěte  - Zvolte pohodlnou pozici pro sebe i pro dítě, aby vás nikde nic netlačilo a nebolely záda. Obličej, hrudník, bříško i kolena miminka směřují k vám. Ucho, rameno a kyčle dítěte jsou v jedné linii. Přidržujte si rukou tělo miminka k sobě za ramena a záda, nikoliv za hlavičku. Mezi vámi a dítětem nesmí být žádná překážka (ručička, kus zavinovačky apod). Brada, tvář i nos miminka se dotýkají prsu. Dítě přikládáme k prsu, nikoliv prs k dítěti.  Dítě nesmí křičet, kojení vás nesmí bolet. Pokud kojení bolí, odpojte dítě (malíčkem do koutku úst dítěte) a zkuste přiložit znovu. \n\n 3. Správné přisátí dítěte  -  Bradavka musí být vždy v úrovni úst dítěte. Drážděním úst miminka bradavkou vyvoláte hledací reflex a miminko správně široce otevře ústa jako při zívání. Při přisátí miminko uchopí nejen bradavku, ale i co největší část dvorce. Všechny vaše prsty, kromě palce by měly být pod bradavkou. Správně přisátému miminku se brada a nos dotýká prsu. Většina dvorce je v ústech dítěte. Více dvorce je vidět nad ústy miminka než pod nimi. Dolní ret je ohrnut ven, jazyk přesahuje dolní ret. Bradavka i s dvorcem je na jazyku. Tváře dítěte nevpadávají dovnitř. Při sání se pohybují spánky a uši dítěte. Platí zásada, že miminko kojíme na požádání a tak dlouho dokud se samo nepustí",
+        "option_codes": []
+    },
+    {
+        "id": 38,
+        "code": 222,
+        "title": "Laktační poradkyně v místě",
+        "text": "Laktační poradkyně v místě bydliště: https://www.kojeni.cz/maminkam/poradci/",
+        "option_codes": []
+    },
+    {
+        "id": 39,
+        "code": 333,
+        "title": "Odkaz na Silverette Léčivé",
+        "text": "Odkaz na Silverette Léčivé kloboučky - www.happymother.cz ",
+        "option_codes": []
+    }
+]
