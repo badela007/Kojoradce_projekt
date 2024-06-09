@@ -8,7 +8,7 @@ export const Answer = ({link, text, backgroundColor, icon}) => {
         <button className="answer">
             <div className="answer__content">
              <div className="answer__content-icon">
-                <img src='img/bublina.svg'></img>
+                <img className='bubble' src='img/bublina.svg'></img>
              </div>
              <div className="answer__content-text">{text}</div>
 </div>
