@@ -20,9 +20,9 @@ export const FeedbackPage = () => {
 
     const requestBody = new FormData(e.target);
     fetch(scriptURL, { method: "POST", body: requestBody })
-      .then((response) => {
-        alert("Success!", response);
-      })
+      // .then((response) => {
+      //   alert("Odeslano", response);
+      // })
       .catch((error) => {
         alert("Error!", error.message);
       });
@@ -45,7 +45,7 @@ export const FeedbackPage = () => {
             <input id="msg-input" type="text" name="messageText" />
           </label>
 
-          <button className="answerButton" type="submit">
+          <button disabled={true} type="submit">
             Odeslat
           </button>
         </form>
