@@ -1,15 +1,18 @@
 import { Link } from 'react-router-dom';
 import './style.css';
 import React, { useState } from 'react';
+import { useNavigate} from "react-router-dom";
+
 
 export const BottomMenu = () => {
   const [menuOpened, setMenuOpened] = useState(false);
+  let navigate = useNavigate();
 
   return (
     <div className="menu_bottom">
         <div className='menu_bottom_content'>
         <div className="back">
-            <button className='back_btn'>back</button>
+            <button onClick={() => navigate(-1)} className='back_btn'></button>
         </div>
 
 

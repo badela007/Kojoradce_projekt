@@ -8,7 +8,6 @@ export const HomePage = () => {
   return (
     <div className="container">
       <header>
-        <h1>Kojorádce</h1>
       </header>
       <main>
         <Question text="Zdravím, jsem KOJORÁDCE. Váš průvodce kojením. S čím mohu pomoci?" />

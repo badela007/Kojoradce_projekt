@@ -8,17 +8,22 @@
 
 .back_btn {
 background-color: #F5F5F5;
-width: 24px;
-height: 24px;
+width: 40px;
+height: 40px;
 background: none;
 	color: inherit;
-   
 	border: none;
 	padding: 0;
 	font: inherit;
 	cursor: pointer;
 	outline: inherit;
+  background-color: #343645 ;
+  border-radius: 100%;
+  background-image: url('./img/arrow-icon.svg');
+  background-size: cover;
+
 }
+
 
 .menu {
   position: relative;
