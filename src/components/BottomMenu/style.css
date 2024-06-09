@@ -3,6 +3,8 @@
   bottom: 0;
   right: 0;
   width: 100vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 
@@ -44,9 +46,9 @@ background: none;
 
 }
 
+
 .menu__btn--open {
   background-image: url(./img/close-icon.svg);
-
 }
 
 .menu__items {
@@ -74,3 +76,4 @@ background: none;
 .menu-item:hover {
   text-decoration: underline;
 }
+

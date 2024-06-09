@@ -2,20 +2,22 @@ import { Link } from 'react-router-dom';
 import './style.css';
 import React, { useState } from 'react';
 import { useNavigate} from "react-router-dom";
+import { useLocation } from 'react-router-dom';
+
 
 
 export const BottomMenu = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   let navigate = useNavigate();
+  const location = useLocation();
+  const hideComponent = location.pathname === '/';
 
   return (
     <div className="menu_bottom">
-        <div className='menu_bottom_content'>
+       
         <div className="back">
-            <button onClick={() => navigate(-1)} className='back_btn'></button>
+            <button style={{ display: hideComponent ? 'none' : 'block' }} onClick={() => navigate(-1)} className='back_btn'></button>
         </div>
-
-
         <div className='hamburger'>
       <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
         <button
@@ -38,7 +40,6 @@ export const BottomMenu = () => {
             Hledám laktační poradkyni
           </Link>
         </div>
-      </div>
       </div>
       </div>
     </div>
