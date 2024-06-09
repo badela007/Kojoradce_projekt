@@ -7,6 +7,13 @@ export const BottomMenu = () => {
 
   return (
     <div className="menu_bottom">
+        <div className='menu_bottom_content'>
+        <div className="back">
+            <button className='back_btn'>back</button>
+        </div>
+
+
+        <div className='hamburger'>
       <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
         <button
           className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
@@ -28,6 +35,8 @@ export const BottomMenu = () => {
             Hledám laktační poradkyni
           </Link>
         </div>
+      </div>
+      </div>
       </div>
     </div>
   );
