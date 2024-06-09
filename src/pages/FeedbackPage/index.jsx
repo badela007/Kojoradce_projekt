@@ -25,16 +25,14 @@ e.preventDefault()
       )
   } 
  
-
-
-
-
   return (
     <>
-    <form onSubmit={handleSubmit}>
-  <label>Zadej svůj věk: <input id="age-input" type="text" name="message" /></label>
-  <button type="submit">Odeslat</button>
+    <div className='feedback_container'>
+    <form className="feedback" onSubmit={handleSubmit}>
+  <label>Byli informace od Kojorádce od Kojorádce pro váas užitečné? Zanechte nám zvkaz <input id="age-input" type="text" name="message" /></label>
+  <button className="answerButton" type="submit">Odeslat</button>
 </form>
+</div>
     </>
   );
 };
