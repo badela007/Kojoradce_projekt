@@ -30,6 +30,9 @@ width: 20%;
 background-image: url('breastfeeding.png');
 }
 
+.bubble {
+    background-image: url('/public/img/info-kojeni.png');
+}
 
 
 
