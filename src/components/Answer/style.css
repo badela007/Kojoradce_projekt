@@ -9,7 +9,7 @@
     color: var(--text-color);
     font-size: 20px;
     padding: 15px;
-    font-family: 'Poppins'; 
+    font-family: 'Poppins';
     justify-content: center;
     align-items: center;
 }
@@ -19,15 +19,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 35px; 
+    gap: 35px;
     flex-shrink: 0;
 
 }
-  
+
 
 .answer__content-icon {
-width: 20%;
-background-image: url('breastfeeding.png');
+    width: 20%;
+    background-image: url('breastfeeding.png');
 }
 
 .bubble {
@@ -37,12 +37,12 @@ background-image: url('breastfeeding.png');
 
 
 .answer__content-text {
-width: 80%;
-text-align: left;
+    width: 80%;
+    text-align: left;
 }
 
 
 a {
     color: var(--text-color);
-    text-decoration: none; 
-  }
+    text-decoration: none;
+}
