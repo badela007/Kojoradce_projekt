@@ -6,18 +6,28 @@ export const BottomMenu = () => {
   const [menuOpened, setMenuOpened] = useState(false);
 
   return (
-    <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
-      <button
-        className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
-        onClick={() => {
-          setMenuOpened(!menuOpened);
-        }}
-      ></button>
-      <div className="menu__items">
-        <Link to="/" text="Kojorádce" />
-        <Link to="/kojoradce/2" text="Potřebuji poradit" />
-        <Link to="/info-o-kojeni" text="Informace o kojení" />
-        <Link to="/laktacni-poradkyne" text="Hledám laktační poradkyni" />
+    <div className="menu_bottom">
+      <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
+        <button
+          className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
+          onClick={() => {
+            setMenuOpened(!menuOpened);
+          }}
+        ></button>
+        <div className="menu__items">
+          <Link to="/" className="menu-item">
+            Kojorádce
+          </Link>
+          <Link to="/kojoradce/2" className="menu-item">
+            Potřebuji poradit
+          </Link>
+          <Link to="/info-o-kojeni" className="menu-item">
+            Informace o kojení
+          </Link>
+          <Link to="/laktacni-poradkyne" className="menu-item">
+            Hledám laktační poradkyni
+          </Link>
+        </div>
       </div>
     </div>
   );

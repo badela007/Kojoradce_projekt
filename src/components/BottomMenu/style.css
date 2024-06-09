@@ -1,5 +1,13 @@
+.menu_bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
 .menu {
   position: relative;
+  bottom: 0;
+  right: 0;
 }
 
 .menu__btn {
@@ -12,10 +20,12 @@
   margin: 0.75rem;
   border: none;
   cursor: pointer;
+
 }
 
 .menu__btn--open {
   background-image: url(./img/close-icon.svg);
+
 }
 
 .menu__items {

@@ -39,7 +39,9 @@ const App = () => {
         <Link to="/laktacni-poradkyne">Laktační poradkyně</Link>
       </nav>
       <Outlet />
-      <BottomMenu />
+      <footer>
+        <BottomMenu />
+      </footer>
     </div>
   );
 };
