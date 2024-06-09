@@ -45,7 +45,10 @@ export const FeedbackPage = () => {
             <input id="msg-input" type="text" name="messageText" />
           </label>
 
-          <button disabled={true} type="submit">
+          <button
+            disabled={rating || message === "" ? true : false}
+            type="submit"
+          >
             Odeslat
           </button>
         </form>
