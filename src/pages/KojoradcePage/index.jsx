@@ -10,7 +10,6 @@ export const KojoradcePage = () => {
   const { code } = useParams();
 
   const question = data.find((qstn) => qstn.code === Number(code));
-  console.log('test', question);
 
   const answers = question.option_codes.map((code) => {
     const answer = data.find((answr) => answr.code === code);
@@ -23,8 +22,6 @@ export const KojoradcePage = () => {
         code;
       }),
   );
-
-  console.log(question.text_question);
 
   return (
     <div className="container">
