@@ -1,10 +1,27 @@
-import { Link } from 'react-router-dom';
 import './style.css';
 import React, { useState } from 'react';
-import { useNavigate} from "react-router-dom";
+import { useNavigate } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
+import { MenuItem } from '../MenuItem';
 
-
+const menuLinks = [
+  {
+    url: '/',
+    text: 'Kojorádce',
+  },
+  {
+    url: '/kojoradce/2',
+    text: 'Potřebuji poradit',
+  },
+  {
+    url: '/info-o-kojeni',
+    text: 'Informace o kojení',
+  },
+  {
+    url: '/laktacni-poradkyne',
+    text: 'Hledám laktační poradkyni',
+  },
+];
 
 export const BottomMenu = () => {
   const [menuOpened, setMenuOpened] = useState(false);
@@ -12,35 +29,40 @@ export const BottomMenu = () => {
   const location = useLocation();
   const hideComponent = location.pathname === '/';
 
+  const onClickHideMenu = () => {
+    setMenuOpened(!menuOpened);
+  };
+
   return (
     <div className="menu_bottom">
-       
-        <div className="back">
-            <button style={{ display: hideComponent ? 'none' : 'block' }} onClick={() => navigate(-1)} className='back_btn'></button>
-        </div>
-        <div className='hamburger'>
-      <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
+      <div className="back">
         <button
-          className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
-          onClick={() => {
-            setMenuOpened(!menuOpened);
-          }}
+          style={{ display: hideComponent ? 'none' : 'block' }}
+          onClick={() => navigate(-1)}
+          className="back_btn"
         ></button>
-        <div className="menu__items">
-          <Link to="/" className="menu-item">
-            Kojorádce
-          </Link>
-          <Link to="/kojoradce/2" className="menu-item">
-            Potřebuji poradit
-          </Link>
-          <Link to="/info-o-kojeni" className="menu-item">
-            Informace o kojení
-          </Link>
-          <Link to="/laktacni-poradkyne" className="menu-item">
-            Hledám laktační poradkyni
-          </Link>
-        </div>
       </div>
+      <div className="hamburger">
+        <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
+          <button
+            className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
+            onClick={() => {
+              setMenuOpened(!menuOpened);
+            }}
+          ></button>
+          <div className="menu__items">
+            {menuLinks.map((link, index) => {
+              return (
+                <MenuItem
+                  url={link.url}
+                  text={link.text}
+                  key={index}
+                  onClosedMenu={onClickHideMenu}
+                />
+              );
+            })}
+          </div>
+        </div>
       </div>
     </div>
   );

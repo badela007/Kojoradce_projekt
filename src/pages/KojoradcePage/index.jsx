@@ -8,14 +8,12 @@ import { ButtonsFinal } from '../../components/ButtonsFinal';
 
 export const KojoradcePage = () => {
   const { code } = useParams();
-  console.log(code);
 
   const question = data.find((qstn) => qstn.code === Number(code));
   console.log('test', question);
 
   const answers = question.option_codes.map((code) => {
     const answer = data.find((answr) => answr.code === code);
-    // console.log(answer.text);
   });
 
   const answer = data.find(
@@ -25,15 +23,11 @@ export const KojoradcePage = () => {
         code;
       }),
   );
-  // console.log(answer);
+
   console.log(question.text_question);
 
   return (
     <div className="container">
-      <header>
-        <div />
-        <h1>Kojorádce</h1>
-      </header>
       <main>
         <Question text={question.text_question} />
 
