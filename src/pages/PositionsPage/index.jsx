@@ -35,7 +35,7 @@ export const PositionsPage = () => {
   ];
 
   return (
-    <div>
+    <div className="positions-container">
       <h1>Polohy kojení</h1>
       <p>
         Je důležité najít uvolněnou a pohodlnou polohu, aby vás nebolely

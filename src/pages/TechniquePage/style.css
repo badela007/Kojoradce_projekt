@@ -1,0 +1,11 @@
+.technique-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 80vw;
+  gap: 10px;
+  justify-content: center;
+
+  margin-top: 20px;
+  margin: 30px;
+}

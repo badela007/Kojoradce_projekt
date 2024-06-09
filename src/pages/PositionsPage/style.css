@@ -1,0 +1,13 @@
+.download-link {
+  text-decoration: underline;
+}
+
+.positions-container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  gap: 8px;
+  justify-content: center;
+  margin-top: 20px;
+  margin: 30px;
+}

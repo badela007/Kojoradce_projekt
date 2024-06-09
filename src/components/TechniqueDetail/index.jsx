@@ -7,12 +7,14 @@ export const TechniqueDetail = ({ title, description, images }) => {
       <p className="technique-detail__text">{description}</p>
       {images &&
         images.map((image, index) => (
-          <img
-            key={index}
-            src={image}
-            alt={`${title} image ${index + 1}`}
-            className="technique-detail__image"
-          />
+          <div className="tecnique-detail__image-container">
+            <img
+              key={index}
+              src={image}
+              alt={`${title} image ${index + 1}`}
+              className="technique-detail__image"
+            />
+          </div>
         ))}
     </div>
   );
