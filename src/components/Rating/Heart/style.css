@@ -1,0 +1,19 @@
+.rating__heart {
+    width: 2rem;
+    height: 2rem;
+  
+    background-image: url("img/heart-empty.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+  
+    cursor: pointer;
+  }
+  
+  .rating__heart:hover {
+    transform: scale(1.2);
+  }
+  
+  .rating__heart--on {
+    background-image: url("img/heart-filled.svg");
+  }
+  

@@ -2,3 +2,8 @@
     display: flex;
     flex-direction: column;
 }
+
+
+.feedback_container {
+    margin: auto;
+}
