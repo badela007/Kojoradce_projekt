@@ -29,15 +29,6 @@ export const ErrorPage = () => {
 const App = () => {
   return (
     <div>
-      <nav>
-        <Link to="/">Hlavni</Link>
-        <span> | </span>
-        <Link to="/kojoradce">Kojorádce</Link>
-        <span> | </span>
-        <Link to="/info-o-kojeni">Info o kojení</Link>
-        <span> | </span>
-        <Link to="/laktacni-poradkyne">Laktační poradkyně</Link>
-      </nav>
       <Outlet />
       <footer>
         <BottomMenu />
