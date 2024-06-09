@@ -14,7 +14,7 @@ export const AnswerButton = ({ code }) => {
 
   return (
     <div onClick={handleClick} className="answerButton">
-      dangerouslySetInnerHTML={{ __html: answer.text }}
+      {answer.text}
     </div>
   );
 };
