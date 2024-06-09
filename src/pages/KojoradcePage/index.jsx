@@ -5,6 +5,7 @@ import { AnswerButton } from '../../components/AnswerButton';
 import data from '../../json/decision_tree_2024-06-04.json';
 import { useParams } from 'react-router-dom';
 import { ButtonsFinal } from '../../components/ButtonsFinal';
+import { BottomMenu } from '../../components/BottomMenu';
 
 export const KojoradcePage = () => {
   const { code } = useParams();
@@ -43,9 +44,6 @@ export const KojoradcePage = () => {
         })}
         {question.option_codes.length === 0 ? <ButtonsFinal /> : null}
       </main>
-      <footer>
-        <p></p>
-      </footer>
     </div>
   );
 };

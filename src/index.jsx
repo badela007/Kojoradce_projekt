@@ -15,6 +15,7 @@ import { InfoPage } from './pages/InfoPage';
 import { PositionsPage } from './pages/PositionsPage';
 import { TechniquePage } from './pages/TechniquePage';
 import { LPPage } from './pages/LPPage';
+import { BottomMenu } from './components/BottomMenu';
 
 export const ErrorPage = () => {
   return (
@@ -28,7 +29,6 @@ export const ErrorPage = () => {
 const App = () => {
   return (
     <div>
-
       <nav>
         <Link to="/">Hlavni</Link>
         <span> | </span>
@@ -39,6 +39,7 @@ const App = () => {
         <Link to="/laktacni-poradkyne">Laktační poradkyně</Link>
       </nav>
       <Outlet />
+      <BottomMenu />
     </div>
   );
 };
@@ -61,15 +62,15 @@ const router = createBrowserRouter([
         path: '/info-o-kojeni',
         element: <InfoPage />,
       },
-          {
-            path: '/info-o-kojeni/polohy',
-            element: <PositionsPage />,
-          },
-          {
-            path: '/info-o-kojeni/technika',
-            element: <TechniquePage />,
-          },
-        
+      {
+        path: '/info-o-kojeni/polohy',
+        element: <PositionsPage />,
+      },
+      {
+        path: '/info-o-kojeni/technika',
+        element: <TechniquePage />,
+      },
+
       {
         path: '/laktacni-poradkyne',
         element: <LPPage />,
