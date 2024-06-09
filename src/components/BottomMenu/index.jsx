@@ -35,20 +35,22 @@ export const BottomMenu = () => {
 
   return (
     <div className="menu_bottom">
-      <div className="back">
-        <button
-          style={{ display: hideComponent ? 'none' : 'block' }}
-          onClick={() => navigate(-1)}
-          className="back_btn"
-        ></button>
+      <div
+        className="back"
+        onClick={() => navigate(-1)}
+        style={{ display: hideComponent ? 'none' : 'flex' }}
+      >
+        <button className="back_btn"></button>
       </div>
-      <div className="hamburger">
+      <div
+        className="hamburger"
+        onClick={() => {
+          setMenuOpened(!menuOpened);
+        }}
+      >
         <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
           <button
             className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
-            onClick={() => {
-              setMenuOpened(!menuOpened);
-            }}
           ></button>
           <div className="menu__items">
             {menuLinks.map((link, index) => {
