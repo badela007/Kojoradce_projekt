@@ -16,6 +16,7 @@ import { PositionsPage } from './pages/PositionsPage';
 import { TechniquePage } from './pages/TechniquePage';
 import { LPPage } from './pages/LPPage';
 import { BottomMenu } from './components/BottomMenu';
+import { FeedbackPage } from './pages/FeedbackPage';
 
 export const ErrorPage = () => {
   return (
@@ -67,6 +68,11 @@ const router = createBrowserRouter([
       {
         path: '/laktacni-poradkyne',
         element: <LPPage />,
+      },
+      {
+        path: '/feedback',
+        element: <FeedbackPage />
+
       },
     ],
   },
