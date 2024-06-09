@@ -5,7 +5,7 @@
     border-radius: 10px;
     background: #5B3F5D;
     border: none;
-    max-width: 80vw;
+    width: 80vw;
     color: var(--text-color);
     font-size: 20px;
     padding: 15px;

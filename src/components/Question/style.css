@@ -2,10 +2,11 @@
 /* Question.css */
 .question {
     display: flex;
-    max-width: 95vw;
+    width: 80vw;
     gap: 8px;
     justify-content: start;
     margin-top: 20px;
+    margin: auto;
   }
 
 .question__logo {
@@ -20,7 +21,7 @@
 }
 
 .question__content {
-width: 85%;
+/* width: 85%; */
 padding: 20px;
 background-color: var(--question-bg-color);
 border-radius: 0 20px 20px 20px;
