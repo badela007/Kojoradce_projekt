@@ -1,9 +1,32 @@
 .feedback {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
-
 .feedback_container {
-    margin: auto;
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--question-bg-color);
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.send_msg {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 80vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--question-bg-color);
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  text-align: center;
 }

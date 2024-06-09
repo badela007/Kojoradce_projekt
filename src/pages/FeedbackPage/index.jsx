@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { Rating } from "../../components/Rating";
+import { Link } from "react-router-dom";
 
 export const FeedbackPage = () => {
   const scriptURL =
@@ -8,6 +9,8 @@ export const FeedbackPage = () => {
 
   const [rating, setRating] = useState(0);
   const [message, setMessage] = useState("");
+
+  const [formIsVisible, setFormIsVisible] = useState(true);
 
   const feedbackData = {
     messageText: message,
@@ -17,19 +20,21 @@ export const FeedbackPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(feedbackData);
-
     const requestBody = new FormData(e.target);
     fetch(scriptURL, { method: "POST", body: requestBody })
-      // .then((response) => {
-      //   alert("Odeslano", response);
-      // })
+      .then((response) => {
+        alert("Odeslano", response);
+        setFormIsVisible(false);
+      })
       .catch((error) => {
         alert("Error!", error.message);
       });
   };
 
-  return (
-    <>
+  console.log(rating);
+
+  if (formIsVisible) {
+    return (
       <div className="feedback_container">
         <form onSubmit={handleSubmit} className="feedback">
           <label>
@@ -42,17 +47,32 @@ export const FeedbackPage = () => {
               name="hodnoceni"
               value={rating}
             />
-            <input id="msg-input" type="text" name="messageText" />
+            <input
+              id="msg-input"
+              type="text"
+              name="messageText"
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
+            />
           </label>
 
-          <button
-            disabled={rating || message === "" ? true : false}
-            type="submit"
-          >
+          <button type="submit" disabled={message === "" && rating === 0}>
             Odeslat
           </button>
         </form>
       </div>
-    </>
-  );
+    );
+  } else {
+    return (
+      <div className="send_msg">
+        Odeslano. Přeji krásný den a kojení zdar!
+        <Link to="/">
+          <button className="answerButton" type="button">
+            Na hlavni
+          </button>
+        </Link>
+      </div>
+    );
+  }
 };
