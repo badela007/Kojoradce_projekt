@@ -1,6 +1,6 @@
-import React from 'react';
-import './style.css';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./style.css";
+import { Answer } from "../../components/Answer";
 
 export const InfoPage = () => {
   return (
@@ -9,13 +9,16 @@ export const InfoPage = () => {
         <h1 className="infoHeader">Informace o kojeni</h1>
       </div>
 
-      <div className="tecniqueButton">
-        <Link to="/info-o-kojeni/technika">Správná technika kojení</Link>
-      </div>
-
-      <div className="positionsButton">
-        <Link to="/info-o-kojeni/polohy">Kojící polohy</Link>
-      </div>
+      <Answer
+        link="/info-o-kojeni/technika"
+        text="Správná technika kojení"
+        imgSrc="img/technika.svg"
+      />
+      <Answer
+        link="/info-o-kojeni/polohy"
+        text="Kojící polohy"
+        imgSrc="img/polohy.svg"
+      />
     </div>
   );
 };
