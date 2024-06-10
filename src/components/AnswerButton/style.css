@@ -1,25 +1,22 @@
 .answerButton {
-    display: block;
-    margin: auto;
-   margin-top: 20px;
-    border-radius: 10px;
-    background: #5B3F5D;
-    border: none;
-    max-width: 80vw;
-    color: var(--text-color);
-    font-size: 20px;
-    padding: 15px;
-    font-family: 'Poppins'; 
-    justify-content: center;
-    align-items: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #5b3f5d;
+  border: none;
+  max-width: 90vw;
+  color: var(--text-color);
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Poppins";
+  justify-content: center;
+  align-items: center;
 }
-
 
 .answerButton__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
 }
-  

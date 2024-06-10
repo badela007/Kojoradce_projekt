@@ -1,15 +1,16 @@
 /* Question.css */
 .question {
   display: flex;
-  width: 80vw;
+  width: 90vw;
   gap: 8px;
   justify-content: start;
+  margin-left: 5px;
   margin-top: 20px;
-  margin: 30px;
+  /* margin: 30px; */
 }
 
 .question__logo {
-  background-image: url('./img/chat-logo.svg');
+  background-image: url("./img/chat-logo.svg");
   background-repeat: no-repeat;
   background-position: center;
   /* width: 15%; */
