@@ -46,7 +46,6 @@
 
 .back_btn {
   background-image: url('./img/arrow_back_1.svg');
-
 }
 
 
@@ -58,7 +57,6 @@
   position: relative;
   bottom: 0;
   right: 0;
-
 }
 
 .menu__btn--open {

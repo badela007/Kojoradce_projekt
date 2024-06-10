@@ -1,24 +1,21 @@
 import React from 'react';
 import './style.css';
-import {
-    createBrowserRouter,
-    NavLink,
-    RouterProvider,
-    Route,
-    Link,
-    Outlet,
-  } from 'react-router-dom';
-
+import { Link } from 'react-router-dom';
 
 export const InfoPage = () => {
   return (
-    <div className="container">
-      <h1>tady bude stranka Informace o kojeni</h1>
-     <Link to="/info-o-kojeni/technika">Technika</Link>
-     <div>
-     <Link to="/info-o-kojeni/polohy">Polohy</Link>
-     </div>
+    <div className="infoContainer">
+      <div className=".question__logo">
+        <h1 className="infoHeader">Informace o kojeni</h1>
+      </div>
 
+      <div className="tecniqueButton">
+        <Link to="/info-o-kojeni/technika">Správná technika kojení</Link>
+      </div>
+
+      <div className="positionsButton">
+        <Link to="/info-o-kojeni/polohy">Kojící polohy</Link>
+      </div>
     </div>
   );
 };
