@@ -26,7 +26,6 @@
 
 .back {
   border-right: var(--btn-nav-bg-color) solid 1px;
-
 }
 
 .back_btn,
@@ -46,12 +45,13 @@
 }
 
 .back_btn {
-  background-image: url('./img/arrow-icon.svg');
+  background-image: url('./img/arrow_back_1.svg');
+
 }
 
 
 .menu__btn {
-  background-image: url(./img/menu-icon.svg);
+  background-image: url('./img/menu-icon.svg');
 }
 
 .menu {
