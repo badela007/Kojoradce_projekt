@@ -10,9 +10,7 @@
   --btn-tertiary-bg-color: rgba(59, 10, 63, 1);
   --btn-nav-bg-color: rgba(52, 54, 69, 1);
   --menu-background: rgba(104, 80, 106, 1);
-
 }
-
 
 /* ZÁKLADNÍ STYLY */
 
@@ -24,8 +22,6 @@ body,
   margin: 0;
   box-sizing: border-box;
 }
-
-
 
 body {
   background-color: var(--main-bg-color);

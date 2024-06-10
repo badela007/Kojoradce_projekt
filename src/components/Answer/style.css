@@ -3,7 +3,7 @@
   margin: auto;
   margin-top: 20px;
   border-radius: 10px;
-  /* background: #5b3f5d; */
+  /* background: predavame v props */
   border: none;
   width: 90vw;
   color: var(--text-color);
@@ -12,6 +12,7 @@
   font-family: "Poppins";
   justify-content: center;
   align-items: center;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 @media (min-width: 768px) {
