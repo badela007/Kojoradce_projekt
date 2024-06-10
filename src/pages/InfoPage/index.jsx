@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 export const InfoPage = () => {
   return (
-    <div className="infoContainer">
+    <div className="container">
       <div className=".question__logo">
         <h1 className="infoHeader">Informace o kojeni</h1>
       </div>

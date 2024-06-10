@@ -4,22 +4,20 @@ import './style.css';
 export const LPPage = () => {
   return (
     <div className="container">
-      <header>
-        <div />
-        <h1>Hledám laktační poradkyni</h1>
-      </header>
-      <main>
+      <div>
+        <h1 className="infoHeader">Hledám laktační poradkyni</h1>
+      </div>
+      <div>
         <p>
-          Na stránkách Laktační ligy najdete seznam laktačních poradkyň podle
+          Na stránkách Laktační ligy naleznete seznam laktačních poradkyň podle
           místa bydliště.
         </p>
+      </div>
+      <div className="lpButton">
         <a href="https://www.kojeni.cz/podpora/seznam-laktacnich-poradcu/">
           Seznam LP
         </a>
-      </main>
-      <footer>
-        <p>Tady bude footer</p>
-      </footer>
+      </div>
     </div>
   );
 };
