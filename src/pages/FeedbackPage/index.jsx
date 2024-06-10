@@ -13,11 +13,6 @@ export const FeedbackPage = () => {
   const [formIsVisible, setFormIsVisible] = useState(true);
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  // const feedbackData = {
-  //   messageText: message,
-  //   hodnoceni: rating,
-  // };
-
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsSubmitting(true);
@@ -36,7 +31,7 @@ export const FeedbackPage = () => {
       <div className="feedback_container">
         <form onSubmit={handleSubmit} className="feedback">
           <label className="form-title">
-            Byly informace od Kojorádce pro vás užitečné? Zanechte nám zvkaz
+            Byly informace od Kojorádce pro vás užitečné? Zanechte nám vzkaz
             <Rating onRate={setRating} rating={rating} />
             <input
               id="rating-input"
@@ -48,6 +43,7 @@ export const FeedbackPage = () => {
               id="msg-input"
               type="text"
               name="messageText"
+              placeholder="Sem napište vzkaz..."
               onChange={(e) => {
                 setMessage(e.target.value);
               }}
@@ -59,7 +55,7 @@ export const FeedbackPage = () => {
             type="submit"
             disabled={isSubmitting || (message === "" && rating === 0)}
           >
-            {isSubmitting ? "  . . .  " : "Odeslat"}
+            {isSubmitting ? "Odesílám..." : "Odeslat"}
           </button>
         </form>
       </div>
