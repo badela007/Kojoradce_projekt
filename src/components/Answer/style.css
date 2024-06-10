@@ -1,48 +1,48 @@
 .answer {
-    display: block;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    background: #5B3F5D;
-    border: none;
-    width: 80vw;
-    color: var(--text-color);
-    font-size: 20px;
-    padding: 15px;
-    font-family: 'Poppins';
-    justify-content: center;
-    align-items: center;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #5b3f5d;
+  border: none;
+  width: 80vw;
+  color: var(--text-color);
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Poppins";
+  justify-content: center;
+  align-items: center;
 }
 
+@media (min-width: 768px) {
+  .answer {
+    width: 500px;
+  }
+}
 
 .answer__content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 35px;
-    flex-shrink: 0;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+  flex-shrink: 0;
 }
 
-
 .answer__content-icon {
-    width: 20%;
-    background-image: url('breastfeeding.png');
+  width: 20%;
+  background-image: url("breastfeeding.png");
 }
 
 .bubble {
-    background-image: url('/public/img/info-kojeni.png');
+  background-image: url("/public/img/info-kojeni.png");
 }
-
-
 
 .answer__content-text {
-    width: 80%;
-    text-align: left;
+  width: 80%;
+  text-align: left;
 }
 
-
 a {
-    color: var(--text-color);
-    text-decoration: none;
+  color: var(--text-color);
+  text-decoration: none;
 }
