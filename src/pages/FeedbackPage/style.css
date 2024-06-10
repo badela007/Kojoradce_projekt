@@ -5,7 +5,7 @@
 
 .feedback_container {
   margin: auto;
-  width: 80vw;
+  width: 95vw;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -73,7 +73,7 @@
 
 .feedbackSent_container {
   margin: auto;
-  width: 80vw;
+  width: 95vw;
   display: flex;
   justify-content: center;
   align-items: center;
