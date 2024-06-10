@@ -13,11 +13,13 @@ export const InfoPage = () => {
         link="/info-o-kojeni/technika"
         text="Správná technika kojení"
         imgSrc="img/technika.svg"
+        backgroundColor="#5B3F5D"
       />
       <Answer
         link="/info-o-kojeni/polohy"
         text="Kojící polohy"
         imgSrc="img/polohy.svg"
+        backgroundColor="#442A65"
       />
     </div>
   );

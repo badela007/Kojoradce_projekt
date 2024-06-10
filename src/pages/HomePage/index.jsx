@@ -14,16 +14,19 @@ export const HomePage = () => {
           link="/kojoradce/2"
           text="Mám potíže. Potřebuji poradit"
           imgSrc="img/chat-kojoradce.svg"
+          backgroundColor="#5B3F5D"
         />
         <Answer
           link="/info-o-kojeni"
           text="Hledám informace ke kojení"
           imgSrc="img/info-kojeni.svg"
+          backgroundColor="#442A65"
         />
         <Answer
           link="/laktacni-poradkyne"
           text="Hledám laktační poradkyní"
           imgSrc="img/laktacni-poradkyne.svg"
+          backgroundColor="#3B0A3F"
         />
       </main>
     </div>
