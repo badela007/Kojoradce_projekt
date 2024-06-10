@@ -1,25 +1,25 @@
-import './style.css';
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
-import { useLocation } from 'react-router-dom';
-import { MenuItem } from '../MenuItem';
+import "./style.css";
+import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { MenuItem } from "../MenuItem";
 
 const menuLinks = [
   {
-    url: '/',
-    text: 'Kojorádce',
+    url: "/",
+    text: "Kojorádce",
   },
   {
-    url: '/kojoradce/2',
-    text: 'Potřebuji poradit',
+    url: "/kojoradce/2",
+    text: "Potřebuji poradit",
   },
   {
-    url: '/info-o-kojeni',
-    text: 'Informace o kojení',
+    url: "/info-o-kojeni",
+    text: "Informace o kojení",
   },
   {
-    url: '/laktacni-poradkyne',
-    text: 'Hledám laktační poradkyni',
+    url: "/laktacni-poradkyne",
+    text: "Hledám laktační poradkyni",
   },
 ];
 
@@ -27,7 +27,7 @@ export const BottomMenu = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   let navigate = useNavigate();
   const location = useLocation();
-  const hideComponent = location.pathname === '/';
+  const hideComponent = location.pathname === "/";
 
   const onClickHideMenu = () => {
     setMenuOpened(!menuOpened);
@@ -38,7 +38,7 @@ export const BottomMenu = () => {
       <div
         className="back"
         onClick={() => navigate(-1)}
-        style={{ display: hideComponent ? 'none' : 'flex' }}
+        style={{ display: hideComponent ? "none" : "flex" }}
       >
         <button className="back_btn"></button>
       </div>
@@ -48,9 +48,9 @@ export const BottomMenu = () => {
           setMenuOpened(!menuOpened);
         }}
       >
-        <div className={menuOpened ? 'menu' : 'menu menu--closed'}>
+        <div className={menuOpened ? "menu" : "menu menu--closed"}>
           <button
-            className={`menu__btn ${menuOpened ? 'menu__btn--open' : ''}`}
+            className={`menu__btn ${menuOpened ? "menu__btn--open" : ""}`}
           ></button>
           <div className="menu__items">
             {menuLinks.map((link, index) => {
