@@ -11,19 +11,19 @@ export const FeedbackPage = () => {
   const [message, setMessage] = useState("");
 
   const [formIsVisible, setFormIsVisible] = useState(true);
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const feedbackData = {
-    messageText: message,
-    hodnoceni: rating,
-  };
+  // const feedbackData = {
+  //   messageText: message,
+  //   hodnoceni: rating,
+  // };
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(feedbackData);
+    setIsSubmitting(true);
     const requestBody = new FormData(e.target);
     fetch(scriptURL, { method: "POST", body: requestBody })
-      .then((response) => {
-        alert("Odeslano", response);
+      .then(() => {
         setFormIsVisible(false);
       })
       .catch((error) => {
@@ -31,15 +31,12 @@ export const FeedbackPage = () => {
       });
   };
 
-  console.log(rating);
-
   if (formIsVisible) {
     return (
       <div className="feedback_container">
         <form onSubmit={handleSubmit} className="feedback">
-          <label>
-            Byli informace od Kojorádce od Kojorádce pro váas užitečné? Zanechte
-            nám zvkaz
+          <label className="form-title">
+            Byly informace od Kojorádce pro vás užitečné? Zanechte nám zvkaz
             <Rating onRate={setRating} rating={rating} />
             <input
               id="rating-input"
@@ -57,21 +54,30 @@ export const FeedbackPage = () => {
             />
           </label>
 
-          <button type="submit" disabled={message === "" && rating === 0}>
-            Odeslat
+          <button
+            className="btn"
+            type="submit"
+            disabled={isSubmitting || (message === "" && rating === 0)}
+          >
+            {isSubmitting ? "  . . .  " : "Odeslat"}
           </button>
         </form>
       </div>
     );
   } else {
     return (
-      <div className="send_msg">
-        Odeslano. Přeji krásný den a kojení zdar!
-        <Link to="/">
-          <button className="answerButton" type="button">
-            Na hlavni
-          </button>
-        </Link>
+      <div className="feedbackSent_container">
+        <div className="feedbackSent">
+          <div className="feedbackSent-title">
+            <p>Odesláno.</p>
+            <p>Přeji krásný den a kojení zdar!</p>
+          </div>
+          <Link className="feedbackSent-toMain" to="/">
+            <button className="feedbackSent-btn" type="button">
+              Na hlavni
+            </button>
+          </Link>
+        </div>
       </div>
     );
   }

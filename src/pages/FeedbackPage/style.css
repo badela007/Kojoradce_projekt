@@ -16,9 +16,62 @@
   text-align: center;
 }
 
-.send_msg {
-  display: flex;
-  flex-direction: column;
+.form-title {
+  font-size: 20px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+}
+
+#msg-input {
+  width: 80%;
+  height: 5rem;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: var(--text-color);
+}
+
+#msg-input:focus {
+  outline: none;
+  border: none;
+}
+
+#msg-input[type="text"] {
+  font-size: 16px;
+  font-family: Poppins;
+}
+
+.btn {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #5b3f5d;
+  border: none;
+  width: 80%;
+  max-width: 80%;
+  color: var(--text-color);
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Poppins";
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background: #7d4b8a;
+}
+
+.btn:disabled {
+  background: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* feedback sent confirmation message */
+
+.feedbackSent_container {
   margin: auto;
   width: 80vw;
   display: flex;
@@ -29,4 +82,48 @@
   margin-top: 50px;
   border-radius: 20px;
   text-align: center;
+}
+
+.feedbackSent {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedbackSent-title {
+  font-size: 20px;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+}
+
+.feedbackSent-toMain {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: #5b3f5d;
+  border: none;
+  width: 100%;
+  max-width: 100%;
+  color: var(--text-color);
+  font-size: 20px;
+  padding: 15px;
+  font-family: "Poppins";
+  justify-content: center;
+  align-items: center;
+}
+
+.feedbackSent-toMain:hover {
+  background: #7d4b8a;
+}
+
+/* smazani defaultnich stylu tlacitka */
+.feedbackSent-btn {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }

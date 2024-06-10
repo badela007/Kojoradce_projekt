@@ -1,4 +1,4 @@
-.rating {
+/* .rating {
     text-align: center;
     width: 10rem;
   }
@@ -15,4 +15,12 @@
     display: flex;
     justify-content: space-between;
   }
-  
+   */
+
+.rating__hearts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin: 25px;
+}
