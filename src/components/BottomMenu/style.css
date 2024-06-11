@@ -1,3 +1,8 @@
+.spacer {
+  height: 60px;
+  /* nebo jiná výška odpovídající výšce vašeho menu */
+}
+
 .menu_bottom {
   position: fixed;
   bottom: 0;
