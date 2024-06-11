@@ -25,6 +25,11 @@ export const TechniquePage = () => {
   return (
     <div className="technique-container">
       <h1>Správná technika kojení</h1>
+      <div className="download-link">
+        <a href="/download/Spravna-technika-kojeni.pdf" download>
+          Stáhnout PDF
+        </a>
+      </div>
       {details.map((detail, index) => (
         <TechniqueDetail
           key={index}
@@ -33,11 +38,6 @@ export const TechniquePage = () => {
           images={detail.images}
         />
       ))}
-      <div className="download-link">
-        <a href="/download/Spravna-technika-kojeni.pdf" download>
-          Stáhnout PDF
-        </a>
-      </div>
     </div>
   );
 };

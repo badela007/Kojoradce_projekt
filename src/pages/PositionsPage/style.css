@@ -10,4 +10,5 @@
   justify-content: center;
   margin-top: 20px;
   margin: 30px;
+  font-size: var(--font-size-secondary)
 }
