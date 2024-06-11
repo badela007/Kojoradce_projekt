@@ -43,7 +43,7 @@ export const FeedbackPage = () => {
               id="msg-input"
               type="text"
               name="messageText"
-              placeholder="Sem napište vzkaz..."
+              placeholder="  Sem napište vzkaz..."
               onChange={(e) => {
                 setMessage(e.target.value);
               }}

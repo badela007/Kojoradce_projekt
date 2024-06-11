@@ -6,13 +6,16 @@
   background: #5b3f5d;
   border: none;
   max-width: 90vw;
-  color: var(--text-color);
-  font-size: 20px;
   padding: 15px;
-  font-family: "Poppins";
   justify-content: center;
   align-items: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* font styles */
+  font-size: var(--font-size-secondary);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight);
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 @media (min-width: 768px) {

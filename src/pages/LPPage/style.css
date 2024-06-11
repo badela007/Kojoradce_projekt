@@ -11,9 +11,10 @@
 }
 
 .consultant__text {
-  font-size: 16px;
+  font-size: var(--font-size-tertiary);
   padding-top: 20px;
   font-family: var(--font-family);
+  font-weight: var(--font-weight);
 }
 
 .consultant__link {

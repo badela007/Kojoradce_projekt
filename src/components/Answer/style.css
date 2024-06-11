@@ -6,13 +6,15 @@
   /* background: predavame v props */
   border: none;
   width: 90vw;
-  color: var(--text-color);
-  font-size: 20px;
   padding: 15px;
-  font-family: "Poppins";
   justify-content: center;
   align-items: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: var(--text-color);
+  font-size: var(--font-size-secondary);
+  font-style: var(--font-style);
+  font-weight: var(--font-weight);
+  font-family: var(--font-family);
 }
 
 @media (min-width: 768px) {

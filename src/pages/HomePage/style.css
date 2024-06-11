@@ -1,15 +1,16 @@
 :root {
   --main-bg-color: rgba(24, 26, 32, 1);
   --question-bg-color: rgba(52, 54, 69, 1);
-  --text-color: rgba(245, 245, 245, 1);
-  --font-family: "Poppins", sans-serif;
-  --font-weight: 400;
-  --font-style: normal;
   --btn-primary-bg-color: rgba(91, 63, 93, 1);
   --btn-secondary-bg-color: rgba(68, 42, 101, 1);
   --btn-tertiary-bg-color: rgba(59, 10, 63, 1);
   --btn-nav-bg-color: rgba(52, 54, 69, 1);
   --menu-background: rgba(104, 80, 106, 1);
+  /* font styles */
+  --text-color: rgba(245, 245, 245, 1);
+  --font-family: "Poppins", sans-serif;
+  --font-weight: 400;
+  --font-style: normal;
   --font-size-primary: 24px;
   --font-size-secondary: 20px;
   --font-size-tertiary: 16px;

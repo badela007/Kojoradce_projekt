@@ -5,7 +5,7 @@ import { Answer } from "../../components/Answer";
 export const InfoPage = () => {
   return (
     <div className="container_info">
-      <h1 className="infoHeader">Informace o kojeni</h1>
+      <h2 className="infoHeader">Informace o kojeni</h2>
 
       <Answer
         link="/info-o-kojeni/technika"

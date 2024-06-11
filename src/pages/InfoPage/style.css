@@ -13,5 +13,6 @@
 
 .infoHeader {
   font-size: var(--font-size-primary);
-  font-style: regular;
+  font-style: var(--font-style);
+  font-weight: var(--font-weight);
 }
