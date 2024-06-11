@@ -1,13 +1,11 @@
-import React from 'react';
-import './style.css';
-import { Answer } from '../../components/Answer';
+import React from "react";
+import "./style.css";
+import { Answer } from "../../components/Answer";
 
 export const InfoPage = () => {
   return (
     <div className="container_info">
-      <div className=".question__logo">
-        <h1 className="infoHeader">Informace o kojeni</h1>
-      </div>
+      <h1 className="infoHeader">Informace o kojeni</h1>
 
       <Answer
         link="/info-o-kojeni/technika"
