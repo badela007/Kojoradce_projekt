@@ -1,42 +1,27 @@
-.consultant_container {
-  margin: auto;
-  width: 95vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--question-bg-color);
+.consultant {
+  width: 90vw;
   padding: 20px;
-  margin-top: 50px;
-  border-radius: 20px;
-  text-align: center;
 }
 
-.lpButton {
-  width: 100%;
-  display: block;
-  margin: auto;
-  margin-top: 20px;
-  border-radius: 10px;
-  border: none;
-  max-width: 90vw;
-  font-size: 20px;
-  padding: 15px;
-  justify-content: center;
-  align-items: center;
-  background: var(--btn-tertiary-bg-color);
-  display: flex;
-  gap: 35px;
-  flex-shrink: 0;
-}
-
-.infoHeader {
+.consultant__heading {
+  font-size: 24px;
   font-family: var(--font-family);
   font-weight: var(--font-weight);
   font-style: var(--font-style);
 }
 
-@media (min-width: 768px) {
-  .lpButton {
-    width: 500px;
-  }
+.consultant__text {
+  font-size: 16px;
+  padding-top: 20px;
+  font-family: var(--font-family);
+}
+
+.consultant__link {
+  color: #d87ab4;
+  text-decoration: underline;
+}
+
+.consultant__link:hover {
+  color: #c48bae;
+  text-decoration: none;
 }
