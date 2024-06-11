@@ -1,8 +1,14 @@
-.container {
-  display: block;
+.consultant_container {
   margin: auto;
-  margin-top: 20px;
-  border-radius: 10px;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--question-bg-color);
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+  text-align: center;
 }
 
 .lpButton {
@@ -23,8 +29,13 @@
   flex-shrink: 0;
 }
 
-@media (min-width: 768px) {
+.infoHeader {
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+}
 
+@media (min-width: 768px) {
   .lpButton {
     width: 500px;
   }

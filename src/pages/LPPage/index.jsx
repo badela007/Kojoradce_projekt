@@ -1,21 +1,25 @@
-import React from 'react';
-import './style.css';
+import React from "react";
+import "./style.css";
 
 export const LPPage = () => {
   return (
-    <div className="container">
+    <div className="consultant">
       <div>
-        <h1 className="infoHeader">Hledám laktační poradkyni</h1>
+        <h1 className="consultant__heading">
+          Najděte svou laktační poradkyni podle místa bydliště
+        </h1>
       </div>
       <div>
-        <p>
-          Na stránkách Laktační ligy naleznete seznam laktačních poradkyň podle
-          místa bydliště.
+        <p className="consultant__text">
+          Seznam laktačních poradkyň najdete na stránkách .
         </p>
       </div>
-      <div className="lpButton">
-        <a href="https://www.kojeni.cz/podpora/seznam-laktacnich-poradcu/">
-          Seznam LP
+      <div className="lpLink">
+        <a
+          className="consultant__link"
+          href="https://www.kojeni.cz/podpora/seznam-laktacnich-poradcu/"
+        >
+          Laktační ligy
         </a>
       </div>
     </div>
