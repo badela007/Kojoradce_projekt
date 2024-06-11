@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import { Consultant } from "../../components/Consultant";
 
 export const LPPage = () => {
   return (
@@ -22,6 +23,7 @@ export const LPPage = () => {
           </div>
         </div>
       </div>
+      <Consultant />
     </div>
   );
 };
