@@ -1,19 +1,15 @@
-/* Question.css */
 .question {
   display: flex;
   width: 90vw;
   gap: 8px;
   justify-content: start;
-  margin-left: 5px;
-  margin-top: 20px;
-  /* margin: 30px; */
+  margin: 20px auto;
 }
 
 .question__logo {
   background-image: url("./img/chat-logo.svg");
   background-repeat: no-repeat;
   background-position: center;
-  /* width: 15%; */
   width: 30px;
   margin-left: 10px;
   height: 30px;
@@ -22,7 +18,6 @@
 }
 
 .question__content {
-  /* width: 85%; */
   padding: 20px;
   background-color: var(--question-bg-color);
   border-radius: 0 20px 20px 20px;
