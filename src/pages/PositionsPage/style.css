@@ -1,5 +1,5 @@
 .positions__intro {
-  width: 100vw;
+  width: 95vw;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -12,13 +12,18 @@
 
 .positions__text {
   margin-top: 20px;
+  font-size: var(--font-size-secondary);
 }
 
 .positions__text p {
   margin-bottom: 1em;
 }
 
-.positions__download-link {
+.download-link {
   text-decoration: underline;
   margin-bottom: 10px;
+}
+
+.positions__list {
+  font-size: var(--font-size-secondary);
 }

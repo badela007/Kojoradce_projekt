@@ -1,1 +1,16 @@
+.technique-detail__label {
+  font-size: var(--font-size-primary);
 
+}
+
+.technique-detail__text {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: var(--font-size-secondary);
+}
+
+.tecnique-detail__image-container {
+  display: flex;
+  align-items: start;
+  margin-bottom: 20px;
+}
