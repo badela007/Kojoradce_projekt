@@ -4,7 +4,7 @@ import './style.css';
 export const TechniqueDetail = ({ title, description, images }) => {
   return (
     <div className="technique-detail">
-      <h2 className="technique-detail__label">{title}</h2>
+      <h3 className="technique-detail__label">{title}</h3>
       <p className="technique-detail__text">{description}</p>
       {images &&
         images.map((image, index) => (

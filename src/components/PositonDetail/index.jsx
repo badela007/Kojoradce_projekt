@@ -1,5 +1,5 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './style.css';
 
 export const PositionDetail = ({ title, description, imgSrc, imgAlt }) => {
   return (
@@ -9,7 +9,7 @@ export const PositionDetail = ({ title, description, imgSrc, imgAlt }) => {
       </div>
 
       <div className="position-detail">
-        <h2 className="position-detail__label">{title}</h2>
+        <h3 className="position-detail__label">{title}</h3>
         <div className="position-detail__image-container">
           <img className="position-detail__image" src={imgSrc} alt={imgAlt} />
         </div>

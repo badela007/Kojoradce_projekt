@@ -24,7 +24,7 @@ export const TechniquePage = () => {
 
   return (
     <div className="technique__container">
-      <h1 className="technique__title">Správná technika kojení</h1>
+      <h2 className="technique__title">Správná technika kojení</h2>
       <div className="download-link">
         <a href="/download/Spravna-technika-kojeni.pdf" download>
           Stáhnout PDF

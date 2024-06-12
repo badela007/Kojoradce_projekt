@@ -37,7 +37,7 @@ export const PositionsPage = () => {
   return (
     <>
       <div className="positions__intro">
-        <h1 className="positions__title">Polohy při kojení</h1>
+        <h2 className="positions__title">Polohy při kojení</h2>
         <div className="positions__text">
           <p>
             Je důležité najít uvolněnou a pohodlnou polohu, aby vás nebolely
