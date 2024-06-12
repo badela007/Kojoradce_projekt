@@ -5,10 +5,12 @@
 .positions-container {
   display: flex;
   flex-direction: column;
-  width: 80vw;
+  width: 90vw;
+  padding: 20px;
   gap: 8px;
   justify-content: center;
   margin-top: 20px;
   margin: 30px;
-  font-size: var(--font-size-secondary)
+  font-size: var(--font-size-secondary);
+
 }
