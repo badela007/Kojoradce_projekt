@@ -19,5 +19,5 @@
   width: 90vw;
   height: auto;
   object-fit: contain;
-
+  flex-basis: 90vw;
 }
