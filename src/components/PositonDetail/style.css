@@ -1,1 +1,6 @@
-
+.position-detail__image-container {
+  width: 90vw;
+  max-width: 600px;
+  height: auto;
+  display: block;
+}
