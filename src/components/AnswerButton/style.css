@@ -18,6 +18,10 @@
   color: var(--text-color);
 }
 
+.answerButton:hover {
+  background: #7a527e;
+}
+
 @media (min-width: 768px) {
   .answerButton {
     width: 500px;

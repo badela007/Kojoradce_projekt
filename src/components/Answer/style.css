@@ -17,6 +17,10 @@
   font-family: var(--font-family);
 }
 
+.answer:hover {
+  filter: brightness(1.2);
+}
+
 @media (min-width: 768px) {
   .answer {
     width: 500px;
@@ -34,10 +38,6 @@
 .answer__content-icon {
   width: 20%;
   background-image: url("breastfeeding.png");
-}
-
-.bubble {
-  background-image: url("/public/img/info-kojeni.png");
 }
 
 .answer__content-text {
