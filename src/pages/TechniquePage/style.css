@@ -10,7 +10,3 @@
 .tecnique__title {
   font-size: var(--font-size-primary);
 }
-
-.technique__list {
-  font-size: var(--font-size-secondary);
-}
