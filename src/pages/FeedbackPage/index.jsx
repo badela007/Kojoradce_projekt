@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import { Rating } from "../../components/Rating";
-import { Link } from "react-router-dom";
+import { FeedbackSentConfirm } from "../../components/FeedbackSentConfirm";
 
 export const FeedbackPage = () => {
   const scriptURL =
@@ -61,20 +61,6 @@ export const FeedbackPage = () => {
       </div>
     );
   } else {
-    return (
-      <div className="feedbackSent_container">
-        <div className="feedbackSent">
-          <div className="feedbackSent-title">
-            <p>Odesláno.</p>
-            <p>Přeji krásný den a kojení zdar!</p>
-          </div>
-          <Link className="feedbackSent-toMain" to="/">
-            <button className="feedbackSent-btn" type="button">
-              Na hlavni
-            </button>
-          </Link>
-        </div>
-      </div>
-    );
+    return <FeedbackSentConfirm />;
   }
 };
