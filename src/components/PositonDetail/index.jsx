@@ -1,15 +1,20 @@
-import React from 'react';
+import React from "react";
+import "./style.css";
 
 export const PositionDetail = ({ title, description, imgSrc, imgAlt }) => {
   return (
-    <div className="position-detail">
-      <h2 className="position-detail__label">{title}</h2>
-      <img
-        className="position-detail__image-container"
-        src={imgSrc}
-        alt={imgAlt}
-      />
-      <p className="postition-detail__text">{description}</p>
-    </div>
+    <>
+      <div className="positions__page-divider">
+        <img src="/img/line.svg"></img>
+      </div>
+
+      <div className="position-detail">
+        <h2 className="position-detail__label">{title}</h2>
+        <div className="position-detail__image-container">
+          <img className="position-detail__image" src={imgSrc} alt={imgAlt} />
+        </div>
+        <p className="postition-detail__text">{description}</p>
+      </div>
+    </>
   );
 };
