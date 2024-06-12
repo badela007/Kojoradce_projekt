@@ -15,7 +15,7 @@ export const PositionsPage = () => {
       title: 'Poloha vleže na zádech',
       description:
         'Ležíte opřená o polštáře. Miminko leží bříškem na vás obličejem dolů. Této poloze se také říká novorozenecká, obvykle se takto přikládá miminko hned po porodu. Poloha je vhodná pro skin-to-skin kontakt, kdy vy i miminko jste svlečení do půli těla.',
-      imgSrc: '/img/v-leze-poloha.png',
+      imgSrc: '/img/vleze-na-zadech-poloha.png',
       imgAlt: 'Matka kojí v leže na zádech',
     },
     {
