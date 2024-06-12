@@ -8,6 +8,7 @@
 
 .positions__title {
   font-size: var(--font-size-primary);
+  font-weight: var(--font-weight);
 }
 
 .positions__text {
