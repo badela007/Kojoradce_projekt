@@ -20,9 +20,9 @@ import { FeedbackPage } from "./pages/FeedbackPage";
 
 export const ErrorPage = () => {
   return (
-    <div className="container container-contact">
-      <h2>Jejda, neco se pokazilo</h2>
-      <Link to="/">Vratit se na hlavni</Link>
+    <div className="container-contact">
+      <h2>Něco se u nás pokazilo</h2>
+      <Link to="/">Vrátit se na hlavní</Link>
     </div>
   );
 };
