@@ -23,7 +23,7 @@
 
 @media (min-width: 768px) {
   .answer {
-    width: 500px;
+    max-width: 600px;
   }
 }
 

@@ -10,3 +10,10 @@
 .tecnique__title {
   font-size: var(--font-size-primary);
 }
+
+@media (min-width: 768px) {
+  .technique__container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+}

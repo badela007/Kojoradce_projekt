@@ -60,3 +60,18 @@
 .feedbackSent-toMain:hover {
   background: #7d4b8a;
 }
+
+@media (min-width: 768px) {
+  .feedbackSent_container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  .feedbackSent-toMain {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+  .images_container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+}

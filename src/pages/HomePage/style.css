@@ -32,3 +32,10 @@ body {
   background-color: var(--main-bg-color);
   color: var(--text-color);
 }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 600px; 
+    margin: 0 auto; /
+  }
+}

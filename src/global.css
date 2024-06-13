@@ -13,3 +13,10 @@
 html {
   font-family: var(--font-family);
 }
+
+@media (min-width: 768px) {
+  .container-contact {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+}

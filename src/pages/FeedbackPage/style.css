@@ -127,3 +127,10 @@
   cursor: pointer;
   outline: inherit;
 }
+
+@media (min-width: 768px) {
+  .feedback_container {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+}

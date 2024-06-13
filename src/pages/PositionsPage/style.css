@@ -23,3 +23,15 @@
   text-decoration: underline;
   margin-bottom: 10px;
 }
+
+@media (min-width: 768px) {
+  .positions__intro {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+
+  .positions__list {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

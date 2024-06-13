@@ -21,3 +21,9 @@
     stroke-dashoffset: 0;
   }
 }
+
+@media (min-width: 768px) {
+  .loader-container {
+    max-width: 600px;
+  }
+}

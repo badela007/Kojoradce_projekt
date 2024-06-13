@@ -16,3 +16,10 @@
   font-style: var(--font-style);
   font-weight: var(--font-weight);
 }
+
+@media (min-width: 768px) {
+  .container_info {
+    max-width: 600px;
+    margin: 50px auto;
+  }
+}
