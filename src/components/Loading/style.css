@@ -13,7 +13,7 @@
 #loader path {
   stroke-dasharray: 4000;
   stroke-dashoffset: 4000;
-  animation: draw 4s linear forwards;
+  animation: draw 6s linear forwards;
 }
 
 @keyframes draw {
