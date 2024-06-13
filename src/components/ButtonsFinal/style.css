@@ -12,8 +12,6 @@
   text-align: center;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-  /* Pridat hover na tlacitka. Zatim z neznameho duvodu to nejde */
-
   /* font styles */
   font-size: var(--font-size-secondary);
   font-style: var(--font-style);
@@ -31,4 +29,8 @@
 
 .buttonsFinal {
   margin-bottom: 80px;
+}
+
+.answerFinal:hover {
+  background: #7a527e;
 }
