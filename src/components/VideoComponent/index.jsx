@@ -11,6 +11,7 @@ export const VideoComponent = ({ title, src }) => {
           height="315"
           src={src}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin"
           allowFullScreen
           title={title}
         ></iframe>

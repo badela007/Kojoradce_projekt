@@ -27,13 +27,13 @@ export const TechniquePage = () => {
     {
       videoId: '1EEa-bA-Wxc',
       title: 'Jak správně přiložit dítě k prsu',
-      src: 'https://www.youtube.com/embed/1EEa-bA-Wxc?si=7nS_zUR_xBeD1X0a',
+      src: 'https://www.youtube-nocookie.com/embed/1EEa-bA-Wxc?si=1ow0LazIP4r2vzOk',
     },
     {
       videoId: '9MhhRGyWujQ',
       title:
         'Jaké POLOHY PŘI KOJENÍ vyhovují miminku? Kdy si zavolat laktační poradkyni?',
-      src: 'https://www.youtube.com/embed/9MhhRGyWujQ?si=JZqM5MeZwIEmKMEV',
+      src: 'https://www.youtube-nocookie.com/embed/9MhhRGyWujQ?si=24RXtJIfxC5URphO',
     },
   ];
 
