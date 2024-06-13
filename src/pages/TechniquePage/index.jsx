@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import { TechniqueDetail } from '../../components/TechniqueDetail';
+import { VideoComponent } from '../../components/VideoComponent';
 
 export const TechniquePage = () => {
   const details = [
@@ -22,6 +23,20 @@ export const TechniquePage = () => {
     },
   ];
 
+  const videos = [
+    {
+      videoId: '1EEa-bA-Wxc',
+      title: 'Jak správně přiložit dítě k prsu',
+      src: 'https://www.youtube.com/embed/1EEa-bA-Wxc?si=7nS_zUR_xBeD1X0a',
+    },
+    {
+      videoId: '9MhhRGyWujQ',
+      title:
+        'Jaké POLOHY PŘI KOJENÍ vyhovují miminku? Kdy si zavolat laktační poradkyni?',
+      src: 'https://www.youtube.com/embed/9MhhRGyWujQ?si=JZqM5MeZwIEmKMEV',
+    },
+  ];
+
   return (
     <div className="technique__container">
       <h2 className="technique__title">Správná technika kojení</h2>
@@ -37,6 +52,16 @@ export const TechniquePage = () => {
             title={detail.title}
             description={detail.description}
             images={detail.images}
+          />
+        ))}
+      </div>
+      <div className="video__list">
+        {videos.map((video, index) => (
+          <VideoComponent
+            key={index}
+            videoId={video.videoId}
+            title={video.title}
+            src={video.src}
           />
         ))}
       </div>
