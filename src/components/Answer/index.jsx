@@ -1,6 +1,5 @@
 import './style.css';
 import { Link } from 'react-router-dom';
-import React from 'react';
 
 export const Answer = ({ link, text, backgroundColor, imgSrc }) => {
   return (
