@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './style.css';
 import { Question } from '../../components/Question';
 import { AnswerButton } from '../../components/AnswerButton';
@@ -22,6 +22,10 @@ export const KojoradcePage = () => {
         code;
       }),
   );
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="container">
