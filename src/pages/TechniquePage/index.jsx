@@ -25,12 +25,12 @@ export const TechniquePage = () => {
 
   const videos = [
     {
-      videoId: '1EEa-bA-Wxc',
+      id: '1EEa-bA-Wxc',
       title: 'Video - Jak správně přiložit dítě k prsu',
       src: 'https://www.youtube-nocookie.com/embed/1EEa-bA-Wxc?si=1ow0LazIP4r2vzOk',
     },
     {
-      videoId: '9MhhRGyWujQ',
+      id: '9MhhRGyWujQ',
       title:
         'Podcast - Jaké POLOHY PŘI KOJENÍ vyhovují miminku? Kdy si zavolat laktační poradkyni?',
       src: 'https://www.youtube-nocookie.com/embed/9MhhRGyWujQ?si=24RXtJIfxC5URphO',
@@ -57,12 +57,7 @@ export const TechniquePage = () => {
       </div>
       <div className="video__list">
         {videos.map((video) => (
-          <VideoComponent
-            key={video.id}
-            videoId={video.videoId}
-            title={video.title}
-            src={video.src}
-          />
+          <VideoComponent key={video.id} title={video.title} src={video.src} />
         ))}
       </div>
     </div>
