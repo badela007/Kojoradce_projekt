@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import "./style.css";
+import { Link } from 'react-router-dom';
+import './style.css';
 export const FeedbackSentConfirm = () => {
   return (
     <>
@@ -21,7 +21,7 @@ export const FeedbackSentConfirm = () => {
         </div>
       </div>
       <Link className="feedbackSent-toMain" to="/" type="button">
-        Na hlavni
+        Na hlavní stránku
       </Link>
     </>
   );
