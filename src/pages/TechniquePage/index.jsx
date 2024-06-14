@@ -56,7 +56,7 @@ export const TechniquePage = () => {
         ))}
       </div>
       <div className="video__list">
-        {videos.map((video, index) => (
+        {videos.map((video) => (
           <VideoComponent
             key={video.id}
             videoId={video.videoId}
