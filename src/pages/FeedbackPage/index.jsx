@@ -44,6 +44,7 @@ export const FeedbackPage = () => {
               type="text"
               name="messageText"
               placeholder="  Sem napište vzkaz..."
+              style={{ padding: "20px" }}
               onChange={(e) => {
                 setMessage(e.target.value);
               }}
