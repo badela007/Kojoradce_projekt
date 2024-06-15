@@ -11,7 +11,7 @@ export const KojoradcePage = () => {
 
   const question = data.find((qstn) => qstn.code === Number(code));
 
-  const answers = question.option_codes.map((code) => {
+  /*const answers = question.option_codes.map((code) => {
     const answer = data.find((answr) => answr.code === code);
   });
 
@@ -21,7 +21,7 @@ export const KojoradcePage = () => {
       question.option_codes.map((code) => {
         code;
       }),
-  );
+  );*/
 
   useEffect(() => {
     window.scrollTo(0, 0);
