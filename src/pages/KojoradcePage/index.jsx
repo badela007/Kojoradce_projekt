@@ -11,18 +11,6 @@ export const KojoradcePage = () => {
 
   const question = data.find((qstn) => qstn.code === Number(code));
 
-  /*const answers = question.option_codes.map((code) => {
-    const answer = data.find((answr) => answr.code === code);
-  });
-
-  const answer = data.find(
-    (answr) =>
-      answr.code ===
-      question.option_codes.map((code) => {
-        code;
-      }),
-  );*/
-
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [code, question]);
