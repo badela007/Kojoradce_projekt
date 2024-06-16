@@ -15,7 +15,7 @@ const menuLinks = [
   },
   {
     url: "/info-o-kojeni",
-    text: "Informace o kojení",
+    text: "Hledám informace o kojení",
   },
   {
     url: "/laktacni-poradkyne",

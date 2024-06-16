@@ -61,7 +61,7 @@ export const HomePage = () => {
           <motion.div variants={buttonsVariants}>
             <Answer
               link="/info-o-kojeni"
-              text="Hledám informace ke kojení"
+              text="Hledám informace o kojení"
               imgSrc="img/info-kojeni.svg"
               backgroundColor="#442A65"
               className="variant"
@@ -71,7 +71,7 @@ export const HomePage = () => {
           <motion.div variants={buttonsVariants}>
             <Answer
               link="/laktacni-poradkyne"
-              text="Hledám laktační poradkyní"
+              text="Hledám laktační poradkyni"
               imgSrc="img/laktacni-poradkyne.svg"
               backgroundColor="#3B0A3F"
               className="variant"
