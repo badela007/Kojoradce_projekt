@@ -20,7 +20,7 @@ export const HomePage = () => {
         <Question text="Zdravím, jsem KOJORÁDCE. Váš průvodce kojením. S čím mohu pomoci?" />
         <Answer
           link="/kojoradce/2"
-          text="Mám potíže. Potřebuji poradit"
+          text="Potřebuji hned poradit"
           imgSrc="img/chat-kojoradce.svg"
           backgroundColor="#5B3F5D"
         />
