@@ -1,5 +1,5 @@
-import './style.css';
-import { Link } from 'react-router-dom';
+import "./style.css";
+import { Link } from "react-router-dom";
 
 export const Answer = ({ link, text, backgroundColor, imgSrc }) => {
   return (

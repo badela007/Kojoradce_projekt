@@ -24,8 +24,8 @@ export const KojoradcePage = () => {
   );*/
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [code, question]);
 
   return (
     <div className="container">
@@ -33,7 +33,6 @@ export const KojoradcePage = () => {
         <Question text={question.text_question} />
 
         {question.option_codes.map((code) => {
-          console.log('kod', code);
           return <AnswerButton code={code} />;
         })}
         {question.option_codes.length === 0 ? <ButtonsFinal /> : null}
