@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
 import "./style.css";
 import { Question } from "../../components/Question";
 import { AnswerButton } from "../../components/AnswerButton";
@@ -23,13 +23,12 @@ export const KojoradcePage = () => {
       })
   );
 
-  const elementRef = useRef(null);
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
   }, [code]);
 
   return (
-    <div className="container" ref={elementRef}>
+    <div className="container">
       <main>
         <Question text={question.text_question} />
 
