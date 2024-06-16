@@ -29,7 +29,7 @@ export const KojoradcePage = () => {
   }, [code]);
 
   return (
-    <div className="container">
+    <div className="container" ref={elementRef}>
       <main>
         <Question text={question.text_question} />
 
