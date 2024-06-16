@@ -54,8 +54,16 @@
   background-image: url("./img/arrow_back_1.svg");
 }
 
+.back_btn:hover {
+  background-color: rgb(126, 117, 117);
+}
+
 .menu__btn {
   background-image: url("./img/menu-icon.svg");
+}
+
+.menu__btn:hover {
+  background-color: rgb(126, 117, 117);
 }
 
 .menu {
