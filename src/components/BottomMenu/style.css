@@ -52,6 +52,7 @@
 
 .back_btn {
   background-image: url("./img/arrow_back_1.svg");
+  touch-action: auto;
 }
 
 .menu__btn {

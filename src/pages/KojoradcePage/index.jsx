@@ -25,7 +25,7 @@ export const KojoradcePage = () => {
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
-  }, [code]);
+  }, [code, question]);
 
   return (
     <div className="container">
