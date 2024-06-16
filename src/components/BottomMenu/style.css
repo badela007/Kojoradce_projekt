@@ -58,6 +58,12 @@
   background-color: rgb(126, 117, 117);
 }
 
+@media (hover: hover) {
+  .back_btn:hover {
+    background-color: rgb(126, 117, 117);
+  }
+}
+
 .menu__btn {
   background-image: url("./img/menu-icon.svg");
 }
